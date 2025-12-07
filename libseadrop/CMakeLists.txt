@@ -112,7 +112,11 @@ elseif(WIN32)
     target_link_libraries(seadrop PRIVATE
         ws2_32
         bcrypt
+        windowsapp
     )
+    
+    # Enable C++/WinRT
+    target_compile_options(seadrop PRIVATE /std:c++17 /await)
 endif()
 
 # Set library properties

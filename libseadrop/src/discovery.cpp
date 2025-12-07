@@ -1,15 +1,11 @@
 /**
  * @file discovery.cpp
- * @brief BLE device discovery implementation (stub)
- *
- * This is a stub implementation. Platform-specific code will be
- * implemented in platform/linux/ and platform/android/ directories.
+ * @brief BLE device discovery implementation
  */
 
 #include "seadrop/discovery.h"
-#include <map>
-#include <mutex>
-#include <thread>
+#include "discovery_pimpl.h"
+#include <chrono>
 
 namespace seadrop {
 
@@ -76,36 +72,6 @@ bool DiscoveredDevice::is_recent(std::chrono::seconds timeout) const {
 // DiscoveryManager Implementation
 // ============================================================================
 
-class DiscoveryManager::Impl {
-public:
-  DiscoveryState state = DiscoveryState::Uninitialized;
-  DiscoveryConfig config;
-  Device local_device;
-  bool is_receiving = false;
-  std::mutex mutex;
-
-  // Discovered devices
-  std::map<std::string, DiscoveredDevice> devices;
-
-  // Callbacks
-  std::function<void(const DiscoveredDevice &)> discovered_cb;
-  std::function<void(const DeviceId &)> lost_cb;
-  std::function<void(const DiscoveredDevice &)> updated_cb;
-  std::function<void(DiscoveryState)> state_changed_cb;
-  std::function<void(const Error &)> error_cb;
-
-  std::string device_key(const DeviceId &id) const { return id.to_hex(); }
-
-  void set_state(DiscoveryState new_state) {
-    if (state != new_state) {
-      state = new_state;
-      if (state_changed_cb) {
-        state_changed_cb(state);
-      }
-    }
-  }
-};
-
 DiscoveryManager::DiscoveryManager() : impl_(std::make_unique<Impl>()) {}
 DiscoveryManager::~DiscoveryManager() { shutdown(); }
 
@@ -133,18 +99,12 @@ bool DiscoveryManager::is_initialized() const {
 
 Result<void> DiscoveryManager::start() {
   std::lock_guard<std::mutex> lock(impl_->mutex);
-
-  // TODO: Start actual BLE advertising and scanning
-  // This will be implemented in platform-specific code
-
-  impl_->set_state(DiscoveryState::Active);
-  return Result<void>::ok();
+  return platform_discovery_start(impl_.get());
 }
 
 void DiscoveryManager::stop() {
   std::lock_guard<std::mutex> lock(impl_->mutex);
-
-  // TODO: Stop BLE advertising and scanning
+  platform_discovery_stop(impl_.get());
 
   if (impl_->state != DiscoveryState::Uninitialized) {
     impl_->set_state(DiscoveryState::Idle);
@@ -153,50 +113,22 @@ void DiscoveryManager::stop() {
 
 Result<void> DiscoveryManager::start_advertising() {
   std::lock_guard<std::mutex> lock(impl_->mutex);
-
-  // TODO: Start BLE advertising only
-
-  if (impl_->state == DiscoveryState::Idle) {
-    impl_->set_state(DiscoveryState::Advertising);
-  } else if (impl_->state == DiscoveryState::Scanning) {
-    impl_->set_state(DiscoveryState::Active);
-  }
-
-  return Result<void>::ok();
+  return platform_discovery_start_advertising(impl_.get());
 }
 
 void DiscoveryManager::stop_advertising() {
   std::lock_guard<std::mutex> lock(impl_->mutex);
-
-  if (impl_->state == DiscoveryState::Advertising) {
-    impl_->set_state(DiscoveryState::Idle);
-  } else if (impl_->state == DiscoveryState::Active) {
-    impl_->set_state(DiscoveryState::Scanning);
-  }
+  platform_discovery_stop_advertising(impl_.get());
 }
 
 Result<void> DiscoveryManager::start_scanning() {
   std::lock_guard<std::mutex> lock(impl_->mutex);
-
-  // TODO: Start BLE scanning only
-
-  if (impl_->state == DiscoveryState::Idle) {
-    impl_->set_state(DiscoveryState::Scanning);
-  } else if (impl_->state == DiscoveryState::Advertising) {
-    impl_->set_state(DiscoveryState::Active);
-  }
-
-  return Result<void>::ok();
+  return platform_discovery_start_scanning(impl_.get());
 }
 
 void DiscoveryManager::stop_scanning() {
   std::lock_guard<std::mutex> lock(impl_->mutex);
-
-  if (impl_->state == DiscoveryState::Scanning) {
-    impl_->set_state(DiscoveryState::Idle);
-  } else if (impl_->state == DiscoveryState::Active) {
-    impl_->set_state(DiscoveryState::Advertising);
-  }
+  platform_discovery_stop_scanning(impl_.get());
 }
 
 DiscoveryState DiscoveryManager::get_state() const { return impl_->state; }
@@ -205,6 +137,7 @@ std::vector<DiscoveredDevice> DiscoveryManager::get_discovered_devices() const {
   std::lock_guard<std::mutex> lock(impl_->mutex);
 
   std::vector<DiscoveredDevice> result;
+  result.reserve(impl_->devices.size());
   for (const auto &[key, device] : impl_->devices) {
     result.push_back(device);
   }
@@ -255,13 +188,13 @@ DiscoveryConfig DiscoveryManager::get_config() const {
 void DiscoveryManager::set_local_device(const Device &device) {
   std::lock_guard<std::mutex> lock(impl_->mutex);
   impl_->local_device = device;
-  // TODO: Update BLE advertisement
+  // TODO: Update advertising if active
 }
 
 void DiscoveryManager::set_receiving(bool is_receiving) {
   std::lock_guard<std::mutex> lock(impl_->mutex);
   impl_->is_receiving = is_receiving;
-  // TODO: Update BLE advertisement
+  // TODO: Update advertising if active
 }
 
 void DiscoveryManager::on_device_discovered(

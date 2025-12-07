@@ -1,0 +1,13 @@
+C:/Users/hp/Documents/SeagrEnv/build/CMakeFiles/edit_cache.dir
+C:/Users/hp/Documents/SeagrEnv/build/CMakeFiles/rebuild_cache.dir
+C:/Users/hp/Documents/SeagrEnv/build/CMakeFiles/list_install_components.dir
+C:/Users/hp/Documents/SeagrEnv/build/CMakeFiles/install.dir
+C:/Users/hp/Documents/SeagrEnv/build/CMakeFiles/install/local.dir
+C:/Users/hp/Documents/SeagrEnv/build/CMakeFiles/install/strip.dir
+C:/Users/hp/Documents/SeagrEnv/build/libseadrop/CMakeFiles/seadrop.dir
+C:/Users/hp/Documents/SeagrEnv/build/libseadrop/CMakeFiles/edit_cache.dir
+C:/Users/hp/Documents/SeagrEnv/build/libseadrop/CMakeFiles/rebuild_cache.dir
+C:/Users/hp/Documents/SeagrEnv/build/libseadrop/CMakeFiles/list_install_components.dir
+C:/Users/hp/Documents/SeagrEnv/build/libseadrop/CMakeFiles/install.dir
+C:/Users/hp/Documents/SeagrEnv/build/libseadrop/CMakeFiles/install/local.dir
+C:/Users/hp/Documents/SeagrEnv/build/libseadrop/CMakeFiles/install/strip.dir

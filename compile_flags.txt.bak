@@ -1,0 +1,11 @@
+-std=c++17
+-I./libseadrop/include
+-IC:/msys64/mingw64/include
+-IC:/msys64/mingw64/include/c++/15.2.0
+-IC:/msys64/mingw64/include/c++/15.2.0/x86_64-w64-mingw32
+-DSEADROP_PLATFORM_WINDOWS=1
+-DSEADROP_HAS_WIFI_DIRECT=1
+-DSEADROP_HAS_BLUETOOTH=1
+-D_WIN32
+-D__MINGW32__
+-D__MINGW64__

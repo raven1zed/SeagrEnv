@@ -1,0 +1,2313 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/msys64/clang64/share/cmake/Modules/CMakeDetermineSystem.cmake:212 (message)"
+      - "CMakeLists.txt:11 (project)"
+    message: |
+      The system is: Windows - 6.2.9200 - AMD64
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/msys64/clang64/share/cmake/Modules/CMakeNinjaFindMake.cmake:5 (find_program)"
+      - "CMakeLists.txt:11 (project)"
+    mode: "program"
+    variable: "CMAKE_MAKE_PROGRAM"
+    description: "Program used to build from build.ninja files."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ninja-build"
+      - "ninja"
+      - "samu"
+    candidate_directories:
+      - "C:/msys64/clang64/bin/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Program Files/HP/OMEN-Broadcast/Common/"
+      - "C:/Program Files/HP/HP One Agent/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Users/hp/AppData/Local/Programs/Python/Python314/Scripts/"
+      - "C:/Users/hp/AppData/Local/Programs/Python/Python314/"
+      - "C:/Users/hp/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/hp/AppData/Local/Programs/Ollama/"
+      - "C:/Users/hp/.lmstudio/bin/"
+      - "C:/Users/hp/AppData/Local/Programs/Zed/bin/"
+      - "C:/Users/hp/AppData/Local/Microsoft/WinGet/Packages/Genymobile.scrcpy_Microsoft.Winget.Source_8wekyb3d8bbwe/scrcpy-win64-v3.3.3/"
+    searched_directories:
+      - "C:/msys64/clang64/bin/ninja-build.com"
+      - "C:/msys64/clang64/bin/ninja-build.exe"
+      - "C:/msys64/clang64/bin/ninja-build"
+      - "C:/msys64/clang64/bin/ninja.com"
+    found: "C:/msys64/clang64/bin/ninja.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\msys64\\clang64\\bin"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\windows\\system32"
+        - "C:\\windows"
+        - "C:\\windows\\System32\\Wbem"
+        - "C:\\windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Program Files\\HP\\OMEN-Broadcast\\Common"
+        - "C:\\Program Files\\HP\\HP One Agent"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\hp\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
+        - "C:\\Users\\hp\\AppData\\Local\\Programs\\Python\\Python314\\"
+        - "C:\\Users\\hp\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\hp\\AppData\\Local\\Programs\\Ollama"
+        - "C:\\Users\\hp\\.lmstudio\\bin"
+        - "C:\\Users\\hp\\AppData\\Local\\Programs\\Zed\\bin"
+        - "C:\\Users\\hp\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Genymobile.scrcpy_Microsoft.Winget.Source_8wekyb3d8bbwe\\scrcpy-win64-v3.3.3"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/msys64/clang64/share/cmake/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "C:/msys64/clang64/share/cmake/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/msys64/clang64/share/cmake/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/msys64/clang64/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/msys64/clang64/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:11 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "C:/msys64/clang64/share/cmake/Modules/"
+    found: "C:/msys64/clang64/share/cmake/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\msys64\\clang64\\bin"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\windows\\system32"
+        - "C:\\windows"
+        - "C:\\windows\\System32\\Wbem"
+        - "C:\\windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Program Files\\HP\\OMEN-Broadcast\\Common"
+        - "C:\\Program Files\\HP\\HP One Agent"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\hp\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
+        - "C:\\Users\\hp\\AppData\\Local\\Programs\\Python\\Python314\\"
+        - "C:\\Users\\hp\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\hp\\AppData\\Local\\Programs\\Ollama"
+        - "C:\\Users\\hp\\.lmstudio\\bin"
+        - "C:\\Users\\hp\\AppData\\Local\\Programs\\Zed\\bin"
+        - "C:\\Users\\hp\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Genymobile.scrcpy_Microsoft.Winget.Source_8wekyb3d8bbwe\\scrcpy-win64-v3.3.3"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/msys64/clang64/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/msys64/clang64/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/msys64/clang64/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:11 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: C:/msys64/clang64/bin/clang++.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.exe"
+      
+      The CXX compiler identification is Clang, found in:
+        C:/Users/hp/Documents/SeagrEnv/build/CMakeFiles/4.1.0/CompilerIdCXX/a.exe
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/msys64/clang64/share/cmake/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "C:/msys64/clang64/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:11 (project)"
+    mode: "program"
+    variable: "CMAKE_AR"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "llvm-ar"
+      - "ar"
+    candidate_directories:
+      - "C:/msys64/clang64/bin/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Program Files/HP/OMEN-Broadcast/Common/"
+      - "C:/Program Files/HP/HP One Agent/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Users/hp/AppData/Local/Programs/Python/Python314/Scripts/"
+      - "C:/Users/hp/AppData/Local/Programs/Python/Python314/"
+      - "C:/Users/hp/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/hp/AppData/Local/Programs/Ollama/"
+      - "C:/Users/hp/.lmstudio/bin/"
+      - "C:/Users/hp/AppData/Local/Programs/Zed/bin/"
+      - "C:/Users/hp/AppData/Local/Microsoft/WinGet/Packages/Genymobile.scrcpy_Microsoft.Winget.Source_8wekyb3d8bbwe/scrcpy-win64-v3.3.3/"
+    searched_directories:
+      - "C:/msys64/clang64/bin/llvm-ar.com"
+    found: "C:/msys64/clang64/bin/llvm-ar.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\msys64\\clang64\\bin"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\windows\\system32"
+        - "C:\\windows"
+        - "C:\\windows\\System32\\Wbem"
+        - "C:\\windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Program Files\\HP\\OMEN-Broadcast\\Common"
+        - "C:\\Program Files\\HP\\HP One Agent"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\hp\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
+        - "C:\\Users\\hp\\AppData\\Local\\Programs\\Python\\Python314\\"
+        - "C:\\Users\\hp\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\hp\\AppData\\Local\\Programs\\Ollama"
+        - "C:\\Users\\hp\\.lmstudio\\bin"
+        - "C:\\Users\\hp\\AppData\\Local\\Programs\\Zed\\bin"
+        - "C:\\Users\\hp\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Genymobile.scrcpy_Microsoft.Winget.Source_8wekyb3d8bbwe\\scrcpy-win64-v3.3.3"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/msys64/clang64/share/cmake/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "C:/msys64/clang64/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:11 (project)"
+    mode: "program"
+    variable: "CMAKE_RANLIB"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "llvm-ranlib"
+      - "ranlib"
+    candidate_directories:
+      - "C:/msys64/clang64/bin/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Program Files/HP/OMEN-Broadcast/Common/"
+      - "C:/Program Files/HP/HP One Agent/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Users/hp/AppData/Local/Programs/Python/Python314/Scripts/"
+      - "C:/Users/hp/AppData/Local/Programs/Python/Python314/"
+      - "C:/Users/hp/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/hp/AppData/Local/Programs/Ollama/"
+      - "C:/Users/hp/.lmstudio/bin/"
+      - "C:/Users/hp/AppData/Local/Programs/Zed/bin/"
+      - "C:/Users/hp/AppData/Local/Microsoft/WinGet/Packages/Genymobile.scrcpy_Microsoft.Winget.Source_8wekyb3d8bbwe/scrcpy-win64-v3.3.3/"
+    searched_directories:
+      - "C:/msys64/clang64/bin/llvm-ranlib.com"
+    found: "C:/msys64/clang64/bin/llvm-ranlib.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\msys64\\clang64\\bin"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\windows\\system32"
+        - "C:\\windows"
+        - "C:\\windows\\System32\\Wbem"
+        - "C:\\windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Program Files\\HP\\OMEN-Broadcast\\Common"
+        - "C:\\Program Files\\HP\\HP One Agent"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\hp\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
+        - "C:\\Users\\hp\\AppData\\Local\\Programs\\Python\\Python314\\"
+        - "C:\\Users\\hp\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\hp\\AppData\\Local\\Programs\\Ollama"
+        - "C:\\Users\\hp\\.lmstudio\\bin"
+        - "C:\\Users\\hp\\AppData\\Local\\Programs\\Zed\\bin"
+        - "C:\\Users\\hp\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Genymobile.scrcpy_Microsoft.Winget.Source_8wekyb3d8bbwe\\scrcpy-win64-v3.3.3"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/msys64/clang64/share/cmake/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "C:/msys64/clang64/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:11 (project)"
+    mode: "program"
+    variable: "CMAKE_STRIP"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "llvm-strip"
+      - "strip"
+    candidate_directories:
+      - "C:/msys64/clang64/bin/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Program Files/HP/OMEN-Broadcast/Common/"
+      - "C:/Program Files/HP/HP One Agent/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Users/hp/AppData/Local/Programs/Python/Python314/Scripts/"
+      - "C:/Users/hp/AppData/Local/Programs/Python/Python314/"
+      - "C:/Users/hp/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/hp/AppData/Local/Programs/Ollama/"
+      - "C:/Users/hp/.lmstudio/bin/"
+      - "C:/Users/hp/AppData/Local/Programs/Zed/bin/"
+      - "C:/Users/hp/AppData/Local/Microsoft/WinGet/Packages/Genymobile.scrcpy_Microsoft.Winget.Source_8wekyb3d8bbwe/scrcpy-win64-v3.3.3/"
+    searched_directories:
+      - "C:/msys64/clang64/bin/llvm-strip.com"
+    found: "C:/msys64/clang64/bin/llvm-strip.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\msys64\\clang64\\bin"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\windows\\system32"
+        - "C:\\windows"
+        - "C:\\windows\\System32\\Wbem"
+        - "C:\\windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Program Files\\HP\\OMEN-Broadcast\\Common"
+        - "C:\\Program Files\\HP\\HP One Agent"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\hp\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
+        - "C:\\Users\\hp\\AppData\\Local\\Programs\\Python\\Python314\\"
+        - "C:\\Users\\hp\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\hp\\AppData\\Local\\Programs\\Ollama"
+        - "C:\\Users\\hp\\.lmstudio\\bin"
+        - "C:\\Users\\hp\\AppData\\Local\\Programs\\Zed\\bin"
+        - "C:\\Users\\hp\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Genymobile.scrcpy_Microsoft.Winget.Source_8wekyb3d8bbwe\\scrcpy-win64-v3.3.3"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/msys64/clang64/share/cmake/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "C:/msys64/clang64/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:11 (project)"
+    mode: "program"
+    variable: "CMAKE_LINKER"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ld.lld"
+      - "ld"
+    candidate_directories:
+      - "C:/msys64/clang64/bin/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Program Files/HP/OMEN-Broadcast/Common/"
+      - "C:/Program Files/HP/HP One Agent/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Users/hp/AppData/Local/Programs/Python/Python314/Scripts/"
+      - "C:/Users/hp/AppData/Local/Programs/Python/Python314/"
+      - "C:/Users/hp/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/hp/AppData/Local/Programs/Ollama/"
+      - "C:/Users/hp/.lmstudio/bin/"
+      - "C:/Users/hp/AppData/Local/Programs/Zed/bin/"
+      - "C:/Users/hp/AppData/Local/Microsoft/WinGet/Packages/Genymobile.scrcpy_Microsoft.Winget.Source_8wekyb3d8bbwe/scrcpy-win64-v3.3.3/"
+    searched_directories:
+      - "C:/msys64/clang64/bin/ld.lld.com"
+    found: "C:/msys64/clang64/bin/ld.lld.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\msys64\\clang64\\bin"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\windows\\system32"
+        - "C:\\windows"
+        - "C:\\windows\\System32\\Wbem"
+        - "C:\\windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Program Files\\HP\\OMEN-Broadcast\\Common"
+        - "C:\\Program Files\\HP\\HP One Agent"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\hp\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
+        - "C:\\Users\\hp\\AppData\\Local\\Programs\\Python\\Python314\\"
+        - "C:\\Users\\hp\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\hp\\AppData\\Local\\Programs\\Ollama"
+        - "C:\\Users\\hp\\.lmstudio\\bin"
+        - "C:\\Users\\hp\\AppData\\Local\\Programs\\Zed\\bin"
+        - "C:\\Users\\hp\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Genymobile.scrcpy_Microsoft.Winget.Source_8wekyb3d8bbwe\\scrcpy-win64-v3.3.3"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/msys64/clang64/share/cmake/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "C:/msys64/clang64/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:11 (project)"
+    mode: "program"
+    variable: "CMAKE_NM"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "llvm-nm"
+      - "nm"
+    candidate_directories:
+      - "C:/msys64/clang64/bin/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Program Files/HP/OMEN-Broadcast/Common/"
+      - "C:/Program Files/HP/HP One Agent/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Users/hp/AppData/Local/Programs/Python/Python314/Scripts/"
+      - "C:/Users/hp/AppData/Local/Programs/Python/Python314/"
+      - "C:/Users/hp/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/hp/AppData/Local/Programs/Ollama/"
+      - "C:/Users/hp/.lmstudio/bin/"
+      - "C:/Users/hp/AppData/Local/Programs/Zed/bin/"
+      - "C:/Users/hp/AppData/Local/Microsoft/WinGet/Packages/Genymobile.scrcpy_Microsoft.Winget.Source_8wekyb3d8bbwe/scrcpy-win64-v3.3.3/"
+    searched_directories:
+      - "C:/msys64/clang64/bin/llvm-nm.com"
+    found: "C:/msys64/clang64/bin/llvm-nm.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\msys64\\clang64\\bin"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\windows\\system32"
+        - "C:\\windows"
+        - "C:\\windows\\System32\\Wbem"
+        - "C:\\windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Program Files\\HP\\OMEN-Broadcast\\Common"
+        - "C:\\Program Files\\HP\\HP One Agent"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\hp\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
+        - "C:\\Users\\hp\\AppData\\Local\\Programs\\Python\\Python314\\"
+        - "C:\\Users\\hp\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\hp\\AppData\\Local\\Programs\\Ollama"
+        - "C:\\Users\\hp\\.lmstudio\\bin"
+        - "C:\\Users\\hp\\AppData\\Local\\Programs\\Zed\\bin"
+        - "C:\\Users\\hp\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Genymobile.scrcpy_Microsoft.Winget.Source_8wekyb3d8bbwe\\scrcpy-win64-v3.3.3"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/msys64/clang64/share/cmake/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "C:/msys64/clang64/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:11 (project)"
+    mode: "program"
+    variable: "CMAKE_OBJDUMP"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "llvm-objdump"
+      - "objdump"
+    candidate_directories:
+      - "C:/msys64/clang64/bin/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Program Files/HP/OMEN-Broadcast/Common/"
+      - "C:/Program Files/HP/HP One Agent/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Users/hp/AppData/Local/Programs/Python/Python314/Scripts/"
+      - "C:/Users/hp/AppData/Local/Programs/Python/Python314/"
+      - "C:/Users/hp/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/hp/AppData/Local/Programs/Ollama/"
+      - "C:/Users/hp/.lmstudio/bin/"
+      - "C:/Users/hp/AppData/Local/Programs/Zed/bin/"
+      - "C:/Users/hp/AppData/Local/Microsoft/WinGet/Packages/Genymobile.scrcpy_Microsoft.Winget.Source_8wekyb3d8bbwe/scrcpy-win64-v3.3.3/"
+    searched_directories:
+      - "C:/msys64/clang64/bin/llvm-objdump.com"
+    found: "C:/msys64/clang64/bin/llvm-objdump.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\msys64\\clang64\\bin"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\windows\\system32"
+        - "C:\\windows"
+        - "C:\\windows\\System32\\Wbem"
+        - "C:\\windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Program Files\\HP\\OMEN-Broadcast\\Common"
+        - "C:\\Program Files\\HP\\HP One Agent"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\hp\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
+        - "C:\\Users\\hp\\AppData\\Local\\Programs\\Python\\Python314\\"
+        - "C:\\Users\\hp\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\hp\\AppData\\Local\\Programs\\Ollama"
+        - "C:\\Users\\hp\\.lmstudio\\bin"
+        - "C:\\Users\\hp\\AppData\\Local\\Programs\\Zed\\bin"
+        - "C:\\Users\\hp\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Genymobile.scrcpy_Microsoft.Winget.Source_8wekyb3d8bbwe\\scrcpy-win64-v3.3.3"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/msys64/clang64/share/cmake/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "C:/msys64/clang64/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:11 (project)"
+    mode: "program"
+    variable: "CMAKE_OBJCOPY"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "llvm-objcopy"
+      - "objcopy"
+    candidate_directories:
+      - "C:/msys64/clang64/bin/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Program Files/HP/OMEN-Broadcast/Common/"
+      - "C:/Program Files/HP/HP One Agent/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Users/hp/AppData/Local/Programs/Python/Python314/Scripts/"
+      - "C:/Users/hp/AppData/Local/Programs/Python/Python314/"
+      - "C:/Users/hp/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/hp/AppData/Local/Programs/Ollama/"
+      - "C:/Users/hp/.lmstudio/bin/"
+      - "C:/Users/hp/AppData/Local/Programs/Zed/bin/"
+      - "C:/Users/hp/AppData/Local/Microsoft/WinGet/Packages/Genymobile.scrcpy_Microsoft.Winget.Source_8wekyb3d8bbwe/scrcpy-win64-v3.3.3/"
+    searched_directories:
+      - "C:/msys64/clang64/bin/llvm-objcopy.com"
+    found: "C:/msys64/clang64/bin/llvm-objcopy.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\msys64\\clang64\\bin"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\windows\\system32"
+        - "C:\\windows"
+        - "C:\\windows\\System32\\Wbem"
+        - "C:\\windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Program Files\\HP\\OMEN-Broadcast\\Common"
+        - "C:\\Program Files\\HP\\HP One Agent"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\hp\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
+        - "C:\\Users\\hp\\AppData\\Local\\Programs\\Python\\Python314\\"
+        - "C:\\Users\\hp\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\hp\\AppData\\Local\\Programs\\Ollama"
+        - "C:\\Users\\hp\\.lmstudio\\bin"
+        - "C:\\Users\\hp\\AppData\\Local\\Programs\\Zed\\bin"
+        - "C:\\Users\\hp\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Genymobile.scrcpy_Microsoft.Winget.Source_8wekyb3d8bbwe\\scrcpy-win64-v3.3.3"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/msys64/clang64/share/cmake/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "C:/msys64/clang64/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:11 (project)"
+    mode: "program"
+    variable: "CMAKE_READELF"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "llvm-readelf"
+      - "readelf"
+    candidate_directories:
+      - "C:/msys64/clang64/bin/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Program Files/HP/OMEN-Broadcast/Common/"
+      - "C:/Program Files/HP/HP One Agent/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Users/hp/AppData/Local/Programs/Python/Python314/Scripts/"
+      - "C:/Users/hp/AppData/Local/Programs/Python/Python314/"
+      - "C:/Users/hp/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/hp/AppData/Local/Programs/Ollama/"
+      - "C:/Users/hp/.lmstudio/bin/"
+      - "C:/Users/hp/AppData/Local/Programs/Zed/bin/"
+      - "C:/Users/hp/AppData/Local/Microsoft/WinGet/Packages/Genymobile.scrcpy_Microsoft.Winget.Source_8wekyb3d8bbwe/scrcpy-win64-v3.3.3/"
+    searched_directories:
+      - "C:/msys64/clang64/bin/llvm-readelf.com"
+    found: "C:/msys64/clang64/bin/llvm-readelf.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\msys64\\clang64\\bin"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\windows\\system32"
+        - "C:\\windows"
+        - "C:\\windows\\System32\\Wbem"
+        - "C:\\windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Program Files\\HP\\OMEN-Broadcast\\Common"
+        - "C:\\Program Files\\HP\\HP One Agent"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\hp\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
+        - "C:\\Users\\hp\\AppData\\Local\\Programs\\Python\\Python314\\"
+        - "C:\\Users\\hp\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\hp\\AppData\\Local\\Programs\\Ollama"
+        - "C:\\Users\\hp\\.lmstudio\\bin"
+        - "C:\\Users\\hp\\AppData\\Local\\Programs\\Zed\\bin"
+        - "C:\\Users\\hp\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Genymobile.scrcpy_Microsoft.Winget.Source_8wekyb3d8bbwe\\scrcpy-win64-v3.3.3"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/msys64/clang64/share/cmake/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "C:/msys64/clang64/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:11 (project)"
+    mode: "program"
+    variable: "CMAKE_DLLTOOL"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "llvm-dlltool"
+      - "dlltool"
+    candidate_directories:
+      - "C:/msys64/clang64/bin/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Program Files/HP/OMEN-Broadcast/Common/"
+      - "C:/Program Files/HP/HP One Agent/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Users/hp/AppData/Local/Programs/Python/Python314/Scripts/"
+      - "C:/Users/hp/AppData/Local/Programs/Python/Python314/"
+      - "C:/Users/hp/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/hp/AppData/Local/Programs/Ollama/"
+      - "C:/Users/hp/.lmstudio/bin/"
+      - "C:/Users/hp/AppData/Local/Programs/Zed/bin/"
+      - "C:/Users/hp/AppData/Local/Microsoft/WinGet/Packages/Genymobile.scrcpy_Microsoft.Winget.Source_8wekyb3d8bbwe/scrcpy-win64-v3.3.3/"
+    searched_directories:
+      - "C:/msys64/clang64/bin/llvm-dlltool.com"
+    found: "C:/msys64/clang64/bin/llvm-dlltool.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\msys64\\clang64\\bin"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\windows\\system32"
+        - "C:\\windows"
+        - "C:\\windows\\System32\\Wbem"
+        - "C:\\windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Program Files\\HP\\OMEN-Broadcast\\Common"
+        - "C:\\Program Files\\HP\\HP One Agent"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\hp\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
+        - "C:\\Users\\hp\\AppData\\Local\\Programs\\Python\\Python314\\"
+        - "C:\\Users\\hp\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\hp\\AppData\\Local\\Programs\\Ollama"
+        - "C:\\Users\\hp\\.lmstudio\\bin"
+        - "C:\\Users\\hp\\AppData\\Local\\Programs\\Zed\\bin"
+        - "C:\\Users\\hp\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Genymobile.scrcpy_Microsoft.Winget.Source_8wekyb3d8bbwe\\scrcpy-win64-v3.3.3"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/msys64/clang64/share/cmake/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "C:/msys64/clang64/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:11 (project)"
+    mode: "program"
+    variable: "CMAKE_ADDR2LINE"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "llvm-addr2line"
+      - "addr2line"
+    candidate_directories:
+      - "C:/msys64/clang64/bin/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Program Files/HP/OMEN-Broadcast/Common/"
+      - "C:/Program Files/HP/HP One Agent/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Users/hp/AppData/Local/Programs/Python/Python314/Scripts/"
+      - "C:/Users/hp/AppData/Local/Programs/Python/Python314/"
+      - "C:/Users/hp/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/hp/AppData/Local/Programs/Ollama/"
+      - "C:/Users/hp/.lmstudio/bin/"
+      - "C:/Users/hp/AppData/Local/Programs/Zed/bin/"
+      - "C:/Users/hp/AppData/Local/Microsoft/WinGet/Packages/Genymobile.scrcpy_Microsoft.Winget.Source_8wekyb3d8bbwe/scrcpy-win64-v3.3.3/"
+    searched_directories:
+      - "C:/msys64/clang64/bin/llvm-addr2line.com"
+    found: "C:/msys64/clang64/bin/llvm-addr2line.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\msys64\\clang64\\bin"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\windows\\system32"
+        - "C:\\windows"
+        - "C:\\windows\\System32\\Wbem"
+        - "C:\\windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Program Files\\HP\\OMEN-Broadcast\\Common"
+        - "C:\\Program Files\\HP\\HP One Agent"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\hp\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
+        - "C:\\Users\\hp\\AppData\\Local\\Programs\\Python\\Python314\\"
+        - "C:\\Users\\hp\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\hp\\AppData\\Local\\Programs\\Ollama"
+        - "C:\\Users\\hp\\.lmstudio\\bin"
+        - "C:\\Users\\hp\\AppData\\Local\\Programs\\Zed\\bin"
+        - "C:\\Users\\hp\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Genymobile.scrcpy_Microsoft.Winget.Source_8wekyb3d8bbwe\\scrcpy-win64-v3.3.3"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/msys64/clang64/share/cmake/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "C:/msys64/clang64/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:11 (project)"
+    mode: "program"
+    variable: "CMAKE_TAPI"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "tapi"
+    candidate_directories:
+      - "C:/msys64/clang64/bin/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Program Files/HP/OMEN-Broadcast/Common/"
+      - "C:/Program Files/HP/HP One Agent/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Users/hp/AppData/Local/Programs/Python/Python314/Scripts/"
+      - "C:/Users/hp/AppData/Local/Programs/Python/Python314/"
+      - "C:/Users/hp/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/hp/AppData/Local/Programs/Ollama/"
+      - "C:/Users/hp/.lmstudio/bin/"
+      - "C:/Users/hp/AppData/Local/Programs/Zed/bin/"
+      - "C:/Users/hp/AppData/Local/Microsoft/WinGet/Packages/Genymobile.scrcpy_Microsoft.Winget.Source_8wekyb3d8bbwe/scrcpy-win64-v3.3.3/"
+    searched_directories:
+      - "C:/msys64/clang64/bin/tapi.com"
+      - "C:/msys64/clang64/bin/tapi.exe"
+      - "C:/msys64/clang64/bin/tapi"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/tapi.com"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/tapi.exe"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/tapi"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/tapi.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/tapi.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/tapi"
+      - "C:/Windows/System32/tapi.com"
+      - "C:/Windows/System32/tapi.exe"
+      - "C:/Windows/System32/tapi"
+      - "C:/Windows/tapi.com"
+      - "C:/Windows/tapi.exe"
+      - "C:/Windows/tapi"
+      - "C:/Windows/System32/wbem/tapi.com"
+      - "C:/Windows/System32/wbem/tapi.exe"
+      - "C:/Windows/System32/wbem/tapi"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/tapi.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/tapi.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/tapi"
+      - "C:/Windows/System32/OpenSSH/tapi.com"
+      - "C:/Windows/System32/OpenSSH/tapi.exe"
+      - "C:/Windows/System32/OpenSSH/tapi"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/tapi.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/tapi.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/tapi"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WindowsApps/tapi.com"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WindowsApps/tapi.exe"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WindowsApps/tapi"
+      - "C:/Program Files/HP/OMEN-Broadcast/Common/tapi.com"
+      - "C:/Program Files/HP/OMEN-Broadcast/Common/tapi.exe"
+      - "C:/Program Files/HP/OMEN-Broadcast/Common/tapi"
+      - "C:/Program Files/HP/HP One Agent/tapi.com"
+      - "C:/Program Files/HP/HP One Agent/tapi.exe"
+      - "C:/Program Files/HP/HP One Agent/tapi"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/tapi.com"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/tapi.exe"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/tapi"
+      - "C:/Program Files/Git/cmd/tapi.com"
+      - "C:/Program Files/Git/cmd/tapi.exe"
+      - "C:/Program Files/Git/cmd/tapi"
+      - "C:/Users/hp/AppData/Local/Programs/Python/Python314/Scripts/tapi.com"
+      - "C:/Users/hp/AppData/Local/Programs/Python/Python314/Scripts/tapi.exe"
+      - "C:/Users/hp/AppData/Local/Programs/Python/Python314/Scripts/tapi"
+      - "C:/Users/hp/AppData/Local/Programs/Python/Python314/tapi.com"
+      - "C:/Users/hp/AppData/Local/Programs/Python/Python314/tapi.exe"
+      - "C:/Users/hp/AppData/Local/Programs/Python/Python314/tapi"
+      - "C:/Users/hp/AppData/Local/Microsoft/WindowsApps/tapi.com"
+      - "C:/Users/hp/AppData/Local/Microsoft/WindowsApps/tapi.exe"
+      - "C:/Users/hp/AppData/Local/Microsoft/WindowsApps/tapi"
+      - "C:/Users/hp/AppData/Local/Programs/Ollama/tapi.com"
+      - "C:/Users/hp/AppData/Local/Programs/Ollama/tapi.exe"
+      - "C:/Users/hp/AppData/Local/Programs/Ollama/tapi"
+      - "C:/Users/hp/.lmstudio/bin/tapi.com"
+      - "C:/Users/hp/.lmstudio/bin/tapi.exe"
+      - "C:/Users/hp/.lmstudio/bin/tapi"
+      - "C:/Users/hp/AppData/Local/Programs/Zed/bin/tapi.com"
+      - "C:/Users/hp/AppData/Local/Programs/Zed/bin/tapi.exe"
+      - "C:/Users/hp/AppData/Local/Programs/Zed/bin/tapi"
+      - "C:/Users/hp/AppData/Local/Microsoft/WinGet/Packages/Genymobile.scrcpy_Microsoft.Winget.Source_8wekyb3d8bbwe/scrcpy-win64-v3.3.3/tapi.com"
+      - "C:/Users/hp/AppData/Local/Microsoft/WinGet/Packages/Genymobile.scrcpy_Microsoft.Winget.Source_8wekyb3d8bbwe/scrcpy-win64-v3.3.3/tapi.exe"
+      - "C:/Users/hp/AppData/Local/Microsoft/WinGet/Packages/Genymobile.scrcpy_Microsoft.Winget.Source_8wekyb3d8bbwe/scrcpy-win64-v3.3.3/tapi"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\msys64\\clang64\\bin"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\windows\\system32"
+        - "C:\\windows"
+        - "C:\\windows\\System32\\Wbem"
+        - "C:\\windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Program Files\\HP\\OMEN-Broadcast\\Common"
+        - "C:\\Program Files\\HP\\HP One Agent"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\hp\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
+        - "C:\\Users\\hp\\AppData\\Local\\Programs\\Python\\Python314\\"
+        - "C:\\Users\\hp\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\hp\\AppData\\Local\\Programs\\Ollama"
+        - "C:\\Users\\hp\\.lmstudio\\bin"
+        - "C:\\Users\\hp\\AppData\\Local\\Programs\\Zed\\bin"
+        - "C:\\Users\\hp\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Genymobile.scrcpy_Microsoft.Winget.Source_8wekyb3d8bbwe\\scrcpy-win64-v3.3.3"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/msys64/clang64/share/cmake/Modules/Compiler/Clang-FindBinUtils.cmake:26 (find_program)"
+      - "C:/msys64/clang64/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:207 (include)"
+      - "CMakeLists.txt:11 (project)"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER_AR"
+    description: "LLVM archiver"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "llvm-ar-20.1"
+      - "llvm-ar-20"
+      - "llvm-ar20"
+      - "llvm-ar"
+    candidate_directories:
+      - "C:/msys64/clang64/bin/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Program Files/HP/OMEN-Broadcast/Common/"
+      - "C:/Program Files/HP/HP One Agent/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Users/hp/AppData/Local/Programs/Python/Python314/Scripts/"
+      - "C:/Users/hp/AppData/Local/Programs/Python/Python314/"
+      - "C:/Users/hp/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/hp/AppData/Local/Programs/Ollama/"
+      - "C:/Users/hp/.lmstudio/bin/"
+      - "C:/Users/hp/AppData/Local/Programs/Zed/bin/"
+      - "C:/Users/hp/AppData/Local/Microsoft/WinGet/Packages/Genymobile.scrcpy_Microsoft.Winget.Source_8wekyb3d8bbwe/scrcpy-win64-v3.3.3/"
+    searched_directories:
+      - "C:/msys64/clang64/bin/llvm-ar-20.1.com"
+      - "C:/msys64/clang64/bin/llvm-ar-20.1.exe"
+      - "C:/msys64/clang64/bin/llvm-ar-20.1"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/llvm-ar-20.1.com"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/llvm-ar-20.1.exe"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/llvm-ar-20.1"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/llvm-ar-20.1.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/llvm-ar-20.1.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/llvm-ar-20.1"
+      - "C:/Windows/System32/llvm-ar-20.1.com"
+      - "C:/Windows/System32/llvm-ar-20.1.exe"
+      - "C:/Windows/System32/llvm-ar-20.1"
+      - "C:/Windows/llvm-ar-20.1.com"
+      - "C:/Windows/llvm-ar-20.1.exe"
+      - "C:/Windows/llvm-ar-20.1"
+      - "C:/Windows/System32/wbem/llvm-ar-20.1.com"
+      - "C:/Windows/System32/wbem/llvm-ar-20.1.exe"
+      - "C:/Windows/System32/wbem/llvm-ar-20.1"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/llvm-ar-20.1.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/llvm-ar-20.1.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/llvm-ar-20.1"
+      - "C:/Windows/System32/OpenSSH/llvm-ar-20.1.com"
+      - "C:/Windows/System32/OpenSSH/llvm-ar-20.1.exe"
+      - "C:/Windows/System32/OpenSSH/llvm-ar-20.1"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/llvm-ar-20.1.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/llvm-ar-20.1.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/llvm-ar-20.1"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WindowsApps/llvm-ar-20.1.com"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WindowsApps/llvm-ar-20.1.exe"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WindowsApps/llvm-ar-20.1"
+      - "C:/Program Files/HP/OMEN-Broadcast/Common/llvm-ar-20.1.com"
+      - "C:/Program Files/HP/OMEN-Broadcast/Common/llvm-ar-20.1.exe"
+      - "C:/Program Files/HP/OMEN-Broadcast/Common/llvm-ar-20.1"
+      - "C:/Program Files/HP/HP One Agent/llvm-ar-20.1.com"
+      - "C:/Program Files/HP/HP One Agent/llvm-ar-20.1.exe"
+      - "C:/Program Files/HP/HP One Agent/llvm-ar-20.1"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/llvm-ar-20.1.com"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/llvm-ar-20.1.exe"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/llvm-ar-20.1"
+      - "C:/Program Files/Git/cmd/llvm-ar-20.1.com"
+      - "C:/Program Files/Git/cmd/llvm-ar-20.1.exe"
+      - "C:/Program Files/Git/cmd/llvm-ar-20.1"
+      - "C:/Users/hp/AppData/Local/Programs/Python/Python314/Scripts/llvm-ar-20.1.com"
+      - "C:/Users/hp/AppData/Local/Programs/Python/Python314/Scripts/llvm-ar-20.1.exe"
+      - "C:/Users/hp/AppData/Local/Programs/Python/Python314/Scripts/llvm-ar-20.1"
+      - "C:/Users/hp/AppData/Local/Programs/Python/Python314/llvm-ar-20.1.com"
+      - "C:/Users/hp/AppData/Local/Programs/Python/Python314/llvm-ar-20.1.exe"
+      - "C:/Users/hp/AppData/Local/Programs/Python/Python314/llvm-ar-20.1"
+      - "C:/Users/hp/AppData/Local/Microsoft/WindowsApps/llvm-ar-20.1.com"
+      - "C:/Users/hp/AppData/Local/Microsoft/WindowsApps/llvm-ar-20.1.exe"
+      - "C:/Users/hp/AppData/Local/Microsoft/WindowsApps/llvm-ar-20.1"
+      - "C:/Users/hp/AppData/Local/Programs/Ollama/llvm-ar-20.1.com"
+      - "C:/Users/hp/AppData/Local/Programs/Ollama/llvm-ar-20.1.exe"
+      - "C:/Users/hp/AppData/Local/Programs/Ollama/llvm-ar-20.1"
+      - "C:/Users/hp/.lmstudio/bin/llvm-ar-20.1.com"
+      - "C:/Users/hp/.lmstudio/bin/llvm-ar-20.1.exe"
+      - "C:/Users/hp/.lmstudio/bin/llvm-ar-20.1"
+      - "C:/Users/hp/AppData/Local/Programs/Zed/bin/llvm-ar-20.1.com"
+      - "C:/Users/hp/AppData/Local/Programs/Zed/bin/llvm-ar-20.1.exe"
+      - "C:/Users/hp/AppData/Local/Programs/Zed/bin/llvm-ar-20.1"
+      - "C:/Users/hp/AppData/Local/Microsoft/WinGet/Packages/Genymobile.scrcpy_Microsoft.Winget.Source_8wekyb3d8bbwe/scrcpy-win64-v3.3.3/llvm-ar-20.1.com"
+      - "C:/Users/hp/AppData/Local/Microsoft/WinGet/Packages/Genymobile.scrcpy_Microsoft.Winget.Source_8wekyb3d8bbwe/scrcpy-win64-v3.3.3/llvm-ar-20.1.exe"
+      - "C:/Users/hp/AppData/Local/Microsoft/WinGet/Packages/Genymobile.scrcpy_Microsoft.Winget.Source_8wekyb3d8bbwe/scrcpy-win64-v3.3.3/llvm-ar-20.1"
+      - "C:/msys64/clang64/bin/llvm-ar-20.com"
+      - "C:/msys64/clang64/bin/llvm-ar-20.exe"
+      - "C:/msys64/clang64/bin/llvm-ar-20"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/llvm-ar-20.com"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/llvm-ar-20.exe"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/llvm-ar-20"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/llvm-ar-20.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/llvm-ar-20.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/llvm-ar-20"
+      - "C:/Windows/System32/llvm-ar-20.com"
+      - "C:/Windows/System32/llvm-ar-20.exe"
+      - "C:/Windows/System32/llvm-ar-20"
+      - "C:/Windows/llvm-ar-20.com"
+      - "C:/Windows/llvm-ar-20.exe"
+      - "C:/Windows/llvm-ar-20"
+      - "C:/Windows/System32/wbem/llvm-ar-20.com"
+      - "C:/Windows/System32/wbem/llvm-ar-20.exe"
+      - "C:/Windows/System32/wbem/llvm-ar-20"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/llvm-ar-20.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/llvm-ar-20.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/llvm-ar-20"
+      - "C:/Windows/System32/OpenSSH/llvm-ar-20.com"
+      - "C:/Windows/System32/OpenSSH/llvm-ar-20.exe"
+      - "C:/Windows/System32/OpenSSH/llvm-ar-20"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/llvm-ar-20.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/llvm-ar-20.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/llvm-ar-20"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WindowsApps/llvm-ar-20.com"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WindowsApps/llvm-ar-20.exe"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WindowsApps/llvm-ar-20"
+      - "C:/Program Files/HP/OMEN-Broadcast/Common/llvm-ar-20.com"
+      - "C:/Program Files/HP/OMEN-Broadcast/Common/llvm-ar-20.exe"
+      - "C:/Program Files/HP/OMEN-Broadcast/Common/llvm-ar-20"
+      - "C:/Program Files/HP/HP One Agent/llvm-ar-20.com"
+      - "C:/Program Files/HP/HP One Agent/llvm-ar-20.exe"
+      - "C:/Program Files/HP/HP One Agent/llvm-ar-20"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/llvm-ar-20.com"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/llvm-ar-20.exe"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/llvm-ar-20"
+      - "C:/Program Files/Git/cmd/llvm-ar-20.com"
+      - "C:/Program Files/Git/cmd/llvm-ar-20.exe"
+      - "C:/Program Files/Git/cmd/llvm-ar-20"
+      - "C:/Users/hp/AppData/Local/Programs/Python/Python314/Scripts/llvm-ar-20.com"
+      - "C:/Users/hp/AppData/Local/Programs/Python/Python314/Scripts/llvm-ar-20.exe"
+      - "C:/Users/hp/AppData/Local/Programs/Python/Python314/Scripts/llvm-ar-20"
+      - "C:/Users/hp/AppData/Local/Programs/Python/Python314/llvm-ar-20.com"
+      - "C:/Users/hp/AppData/Local/Programs/Python/Python314/llvm-ar-20.exe"
+      - "C:/Users/hp/AppData/Local/Programs/Python/Python314/llvm-ar-20"
+      - "C:/Users/hp/AppData/Local/Microsoft/WindowsApps/llvm-ar-20.com"
+      - "C:/Users/hp/AppData/Local/Microsoft/WindowsApps/llvm-ar-20.exe"
+      - "C:/Users/hp/AppData/Local/Microsoft/WindowsApps/llvm-ar-20"
+      - "C:/Users/hp/AppData/Local/Programs/Ollama/llvm-ar-20.com"
+      - "C:/Users/hp/AppData/Local/Programs/Ollama/llvm-ar-20.exe"
+      - "C:/Users/hp/AppData/Local/Programs/Ollama/llvm-ar-20"
+      - "C:/Users/hp/.lmstudio/bin/llvm-ar-20.com"
+      - "C:/Users/hp/.lmstudio/bin/llvm-ar-20.exe"
+      - "C:/Users/hp/.lmstudio/bin/llvm-ar-20"
+      - "C:/Users/hp/AppData/Local/Programs/Zed/bin/llvm-ar-20.com"
+      - "C:/Users/hp/AppData/Local/Programs/Zed/bin/llvm-ar-20.exe"
+      - "C:/Users/hp/AppData/Local/Programs/Zed/bin/llvm-ar-20"
+      - "C:/Users/hp/AppData/Local/Microsoft/WinGet/Packages/Genymobile.scrcpy_Microsoft.Winget.Source_8wekyb3d8bbwe/scrcpy-win64-v3.3.3/llvm-ar-20.com"
+      - "C:/Users/hp/AppData/Local/Microsoft/WinGet/Packages/Genymobile.scrcpy_Microsoft.Winget.Source_8wekyb3d8bbwe/scrcpy-win64-v3.3.3/llvm-ar-20.exe"
+      - "C:/Users/hp/AppData/Local/Microsoft/WinGet/Packages/Genymobile.scrcpy_Microsoft.Winget.Source_8wekyb3d8bbwe/scrcpy-win64-v3.3.3/llvm-ar-20"
+      - "C:/msys64/clang64/bin/llvm-ar20.com"
+      - "C:/msys64/clang64/bin/llvm-ar20.exe"
+      - "C:/msys64/clang64/bin/llvm-ar20"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/llvm-ar20.com"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/llvm-ar20.exe"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/llvm-ar20"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/llvm-ar20.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/llvm-ar20.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/llvm-ar20"
+      - "C:/Windows/System32/llvm-ar20.com"
+      - "C:/Windows/System32/llvm-ar20.exe"
+      - "C:/Windows/System32/llvm-ar20"
+      - "C:/Windows/llvm-ar20.com"
+      - "C:/Windows/llvm-ar20.exe"
+      - "C:/Windows/llvm-ar20"
+      - "C:/Windows/System32/wbem/llvm-ar20.com"
+      - "C:/Windows/System32/wbem/llvm-ar20.exe"
+      - "C:/Windows/System32/wbem/llvm-ar20"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/llvm-ar20.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/llvm-ar20.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/llvm-ar20"
+      - "C:/Windows/System32/OpenSSH/llvm-ar20.com"
+      - "C:/Windows/System32/OpenSSH/llvm-ar20.exe"
+      - "C:/Windows/System32/OpenSSH/llvm-ar20"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/llvm-ar20.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/llvm-ar20.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/llvm-ar20"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WindowsApps/llvm-ar20.com"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WindowsApps/llvm-ar20.exe"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WindowsApps/llvm-ar20"
+      - "C:/Program Files/HP/OMEN-Broadcast/Common/llvm-ar20.com"
+      - "C:/Program Files/HP/OMEN-Broadcast/Common/llvm-ar20.exe"
+      - "C:/Program Files/HP/OMEN-Broadcast/Common/llvm-ar20"
+      - "C:/Program Files/HP/HP One Agent/llvm-ar20.com"
+      - "C:/Program Files/HP/HP One Agent/llvm-ar20.exe"
+      - "C:/Program Files/HP/HP One Agent/llvm-ar20"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/llvm-ar20.com"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/llvm-ar20.exe"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/llvm-ar20"
+      - "C:/Program Files/Git/cmd/llvm-ar20.com"
+      - "C:/Program Files/Git/cmd/llvm-ar20.exe"
+      - "C:/Program Files/Git/cmd/llvm-ar20"
+      - "C:/Users/hp/AppData/Local/Programs/Python/Python314/Scripts/llvm-ar20.com"
+      - "C:/Users/hp/AppData/Local/Programs/Python/Python314/Scripts/llvm-ar20.exe"
+      - "C:/Users/hp/AppData/Local/Programs/Python/Python314/Scripts/llvm-ar20"
+      - "C:/Users/hp/AppData/Local/Programs/Python/Python314/llvm-ar20.com"
+      - "C:/Users/hp/AppData/Local/Programs/Python/Python314/llvm-ar20.exe"
+      - "C:/Users/hp/AppData/Local/Programs/Python/Python314/llvm-ar20"
+      - "C:/Users/hp/AppData/Local/Microsoft/WindowsApps/llvm-ar20.com"
+      - "C:/Users/hp/AppData/Local/Microsoft/WindowsApps/llvm-ar20.exe"
+      - "C:/Users/hp/AppData/Local/Microsoft/WindowsApps/llvm-ar20"
+      - "C:/Users/hp/AppData/Local/Programs/Ollama/llvm-ar20.com"
+      - "C:/Users/hp/AppData/Local/Programs/Ollama/llvm-ar20.exe"
+      - "C:/Users/hp/AppData/Local/Programs/Ollama/llvm-ar20"
+      - "C:/Users/hp/.lmstudio/bin/llvm-ar20.com"
+      - "C:/Users/hp/.lmstudio/bin/llvm-ar20.exe"
+      - "C:/Users/hp/.lmstudio/bin/llvm-ar20"
+      - "C:/Users/hp/AppData/Local/Programs/Zed/bin/llvm-ar20.com"
+      - "C:/Users/hp/AppData/Local/Programs/Zed/bin/llvm-ar20.exe"
+      - "C:/Users/hp/AppData/Local/Programs/Zed/bin/llvm-ar20"
+      - "C:/Users/hp/AppData/Local/Microsoft/WinGet/Packages/Genymobile.scrcpy_Microsoft.Winget.Source_8wekyb3d8bbwe/scrcpy-win64-v3.3.3/llvm-ar20.com"
+      - "C:/Users/hp/AppData/Local/Microsoft/WinGet/Packages/Genymobile.scrcpy_Microsoft.Winget.Source_8wekyb3d8bbwe/scrcpy-win64-v3.3.3/llvm-ar20.exe"
+      - "C:/Users/hp/AppData/Local/Microsoft/WinGet/Packages/Genymobile.scrcpy_Microsoft.Winget.Source_8wekyb3d8bbwe/scrcpy-win64-v3.3.3/llvm-ar20"
+      - "C:/msys64/clang64/bin/llvm-ar.com"
+    found: "C:/msys64/clang64/bin/llvm-ar.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\msys64\\clang64\\bin"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\windows\\system32"
+        - "C:\\windows"
+        - "C:\\windows\\System32\\Wbem"
+        - "C:\\windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Program Files\\HP\\OMEN-Broadcast\\Common"
+        - "C:\\Program Files\\HP\\HP One Agent"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\hp\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
+        - "C:\\Users\\hp\\AppData\\Local\\Programs\\Python\\Python314\\"
+        - "C:\\Users\\hp\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\hp\\AppData\\Local\\Programs\\Ollama"
+        - "C:\\Users\\hp\\.lmstudio\\bin"
+        - "C:\\Users\\hp\\AppData\\Local\\Programs\\Zed\\bin"
+        - "C:\\Users\\hp\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Genymobile.scrcpy_Microsoft.Winget.Source_8wekyb3d8bbwe\\scrcpy-win64-v3.3.3"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/msys64/clang64/share/cmake/Modules/Compiler/Clang-FindBinUtils.cmake:38 (find_program)"
+      - "C:/msys64/clang64/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:207 (include)"
+      - "CMakeLists.txt:11 (project)"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER_RANLIB"
+    description: "Generate index for LLVM archive"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "llvm-ranlib-20.1"
+      - "llvm-ranlib-20"
+      - "llvm-ranlib20"
+      - "llvm-ranlib"
+    candidate_directories:
+      - "C:/msys64/clang64/bin/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Program Files/HP/OMEN-Broadcast/Common/"
+      - "C:/Program Files/HP/HP One Agent/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Users/hp/AppData/Local/Programs/Python/Python314/Scripts/"
+      - "C:/Users/hp/AppData/Local/Programs/Python/Python314/"
+      - "C:/Users/hp/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/hp/AppData/Local/Programs/Ollama/"
+      - "C:/Users/hp/.lmstudio/bin/"
+      - "C:/Users/hp/AppData/Local/Programs/Zed/bin/"
+      - "C:/Users/hp/AppData/Local/Microsoft/WinGet/Packages/Genymobile.scrcpy_Microsoft.Winget.Source_8wekyb3d8bbwe/scrcpy-win64-v3.3.3/"
+    searched_directories:
+      - "C:/msys64/clang64/bin/llvm-ranlib-20.1.com"
+      - "C:/msys64/clang64/bin/llvm-ranlib-20.1.exe"
+      - "C:/msys64/clang64/bin/llvm-ranlib-20.1"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/llvm-ranlib-20.1.com"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/llvm-ranlib-20.1.exe"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/llvm-ranlib-20.1"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/llvm-ranlib-20.1.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/llvm-ranlib-20.1.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/llvm-ranlib-20.1"
+      - "C:/Windows/System32/llvm-ranlib-20.1.com"
+      - "C:/Windows/System32/llvm-ranlib-20.1.exe"
+      - "C:/Windows/System32/llvm-ranlib-20.1"
+      - "C:/Windows/llvm-ranlib-20.1.com"
+      - "C:/Windows/llvm-ranlib-20.1.exe"
+      - "C:/Windows/llvm-ranlib-20.1"
+      - "C:/Windows/System32/wbem/llvm-ranlib-20.1.com"
+      - "C:/Windows/System32/wbem/llvm-ranlib-20.1.exe"
+      - "C:/Windows/System32/wbem/llvm-ranlib-20.1"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/llvm-ranlib-20.1.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/llvm-ranlib-20.1.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/llvm-ranlib-20.1"
+      - "C:/Windows/System32/OpenSSH/llvm-ranlib-20.1.com"
+      - "C:/Windows/System32/OpenSSH/llvm-ranlib-20.1.exe"
+      - "C:/Windows/System32/OpenSSH/llvm-ranlib-20.1"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/llvm-ranlib-20.1.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/llvm-ranlib-20.1.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/llvm-ranlib-20.1"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WindowsApps/llvm-ranlib-20.1.com"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WindowsApps/llvm-ranlib-20.1.exe"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WindowsApps/llvm-ranlib-20.1"
+      - "C:/Program Files/HP/OMEN-Broadcast/Common/llvm-ranlib-20.1.com"
+      - "C:/Program Files/HP/OMEN-Broadcast/Common/llvm-ranlib-20.1.exe"
+      - "C:/Program Files/HP/OMEN-Broadcast/Common/llvm-ranlib-20.1"
+      - "C:/Program Files/HP/HP One Agent/llvm-ranlib-20.1.com"
+      - "C:/Program Files/HP/HP One Agent/llvm-ranlib-20.1.exe"
+      - "C:/Program Files/HP/HP One Agent/llvm-ranlib-20.1"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/llvm-ranlib-20.1.com"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/llvm-ranlib-20.1.exe"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/llvm-ranlib-20.1"
+      - "C:/Program Files/Git/cmd/llvm-ranlib-20.1.com"
+      - "C:/Program Files/Git/cmd/llvm-ranlib-20.1.exe"
+      - "C:/Program Files/Git/cmd/llvm-ranlib-20.1"
+      - "C:/Users/hp/AppData/Local/Programs/Python/Python314/Scripts/llvm-ranlib-20.1.com"
+      - "C:/Users/hp/AppData/Local/Programs/Python/Python314/Scripts/llvm-ranlib-20.1.exe"
+      - "C:/Users/hp/AppData/Local/Programs/Python/Python314/Scripts/llvm-ranlib-20.1"
+      - "C:/Users/hp/AppData/Local/Programs/Python/Python314/llvm-ranlib-20.1.com"
+      - "C:/Users/hp/AppData/Local/Programs/Python/Python314/llvm-ranlib-20.1.exe"
+      - "C:/Users/hp/AppData/Local/Programs/Python/Python314/llvm-ranlib-20.1"
+      - "C:/Users/hp/AppData/Local/Microsoft/WindowsApps/llvm-ranlib-20.1.com"
+      - "C:/Users/hp/AppData/Local/Microsoft/WindowsApps/llvm-ranlib-20.1.exe"
+      - "C:/Users/hp/AppData/Local/Microsoft/WindowsApps/llvm-ranlib-20.1"
+      - "C:/Users/hp/AppData/Local/Programs/Ollama/llvm-ranlib-20.1.com"
+      - "C:/Users/hp/AppData/Local/Programs/Ollama/llvm-ranlib-20.1.exe"
+      - "C:/Users/hp/AppData/Local/Programs/Ollama/llvm-ranlib-20.1"
+      - "C:/Users/hp/.lmstudio/bin/llvm-ranlib-20.1.com"
+      - "C:/Users/hp/.lmstudio/bin/llvm-ranlib-20.1.exe"
+      - "C:/Users/hp/.lmstudio/bin/llvm-ranlib-20.1"
+      - "C:/Users/hp/AppData/Local/Programs/Zed/bin/llvm-ranlib-20.1.com"
+      - "C:/Users/hp/AppData/Local/Programs/Zed/bin/llvm-ranlib-20.1.exe"
+      - "C:/Users/hp/AppData/Local/Programs/Zed/bin/llvm-ranlib-20.1"
+      - "C:/Users/hp/AppData/Local/Microsoft/WinGet/Packages/Genymobile.scrcpy_Microsoft.Winget.Source_8wekyb3d8bbwe/scrcpy-win64-v3.3.3/llvm-ranlib-20.1.com"
+      - "C:/Users/hp/AppData/Local/Microsoft/WinGet/Packages/Genymobile.scrcpy_Microsoft.Winget.Source_8wekyb3d8bbwe/scrcpy-win64-v3.3.3/llvm-ranlib-20.1.exe"
+      - "C:/Users/hp/AppData/Local/Microsoft/WinGet/Packages/Genymobile.scrcpy_Microsoft.Winget.Source_8wekyb3d8bbwe/scrcpy-win64-v3.3.3/llvm-ranlib-20.1"
+      - "C:/msys64/clang64/bin/llvm-ranlib-20.com"
+      - "C:/msys64/clang64/bin/llvm-ranlib-20.exe"
+      - "C:/msys64/clang64/bin/llvm-ranlib-20"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/llvm-ranlib-20.com"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/llvm-ranlib-20.exe"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/llvm-ranlib-20"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/llvm-ranlib-20.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/llvm-ranlib-20.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/llvm-ranlib-20"
+      - "C:/Windows/System32/llvm-ranlib-20.com"
+      - "C:/Windows/System32/llvm-ranlib-20.exe"
+      - "C:/Windows/System32/llvm-ranlib-20"
+      - "C:/Windows/llvm-ranlib-20.com"
+      - "C:/Windows/llvm-ranlib-20.exe"
+      - "C:/Windows/llvm-ranlib-20"
+      - "C:/Windows/System32/wbem/llvm-ranlib-20.com"
+      - "C:/Windows/System32/wbem/llvm-ranlib-20.exe"
+      - "C:/Windows/System32/wbem/llvm-ranlib-20"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/llvm-ranlib-20.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/llvm-ranlib-20.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/llvm-ranlib-20"
+      - "C:/Windows/System32/OpenSSH/llvm-ranlib-20.com"
+      - "C:/Windows/System32/OpenSSH/llvm-ranlib-20.exe"
+      - "C:/Windows/System32/OpenSSH/llvm-ranlib-20"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/llvm-ranlib-20.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/llvm-ranlib-20.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/llvm-ranlib-20"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WindowsApps/llvm-ranlib-20.com"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WindowsApps/llvm-ranlib-20.exe"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WindowsApps/llvm-ranlib-20"
+      - "C:/Program Files/HP/OMEN-Broadcast/Common/llvm-ranlib-20.com"
+      - "C:/Program Files/HP/OMEN-Broadcast/Common/llvm-ranlib-20.exe"
+      - "C:/Program Files/HP/OMEN-Broadcast/Common/llvm-ranlib-20"
+      - "C:/Program Files/HP/HP One Agent/llvm-ranlib-20.com"
+      - "C:/Program Files/HP/HP One Agent/llvm-ranlib-20.exe"
+      - "C:/Program Files/HP/HP One Agent/llvm-ranlib-20"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/llvm-ranlib-20.com"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/llvm-ranlib-20.exe"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/llvm-ranlib-20"
+      - "C:/Program Files/Git/cmd/llvm-ranlib-20.com"
+      - "C:/Program Files/Git/cmd/llvm-ranlib-20.exe"
+      - "C:/Program Files/Git/cmd/llvm-ranlib-20"
+      - "C:/Users/hp/AppData/Local/Programs/Python/Python314/Scripts/llvm-ranlib-20.com"
+      - "C:/Users/hp/AppData/Local/Programs/Python/Python314/Scripts/llvm-ranlib-20.exe"
+      - "C:/Users/hp/AppData/Local/Programs/Python/Python314/Scripts/llvm-ranlib-20"
+      - "C:/Users/hp/AppData/Local/Programs/Python/Python314/llvm-ranlib-20.com"
+      - "C:/Users/hp/AppData/Local/Programs/Python/Python314/llvm-ranlib-20.exe"
+      - "C:/Users/hp/AppData/Local/Programs/Python/Python314/llvm-ranlib-20"
+      - "C:/Users/hp/AppData/Local/Microsoft/WindowsApps/llvm-ranlib-20.com"
+      - "C:/Users/hp/AppData/Local/Microsoft/WindowsApps/llvm-ranlib-20.exe"
+      - "C:/Users/hp/AppData/Local/Microsoft/WindowsApps/llvm-ranlib-20"
+      - "C:/Users/hp/AppData/Local/Programs/Ollama/llvm-ranlib-20.com"
+      - "C:/Users/hp/AppData/Local/Programs/Ollama/llvm-ranlib-20.exe"
+      - "C:/Users/hp/AppData/Local/Programs/Ollama/llvm-ranlib-20"
+      - "C:/Users/hp/.lmstudio/bin/llvm-ranlib-20.com"
+      - "C:/Users/hp/.lmstudio/bin/llvm-ranlib-20.exe"
+      - "C:/Users/hp/.lmstudio/bin/llvm-ranlib-20"
+      - "C:/Users/hp/AppData/Local/Programs/Zed/bin/llvm-ranlib-20.com"
+      - "C:/Users/hp/AppData/Local/Programs/Zed/bin/llvm-ranlib-20.exe"
+      - "C:/Users/hp/AppData/Local/Programs/Zed/bin/llvm-ranlib-20"
+      - "C:/Users/hp/AppData/Local/Microsoft/WinGet/Packages/Genymobile.scrcpy_Microsoft.Winget.Source_8wekyb3d8bbwe/scrcpy-win64-v3.3.3/llvm-ranlib-20.com"
+      - "C:/Users/hp/AppData/Local/Microsoft/WinGet/Packages/Genymobile.scrcpy_Microsoft.Winget.Source_8wekyb3d8bbwe/scrcpy-win64-v3.3.3/llvm-ranlib-20.exe"
+      - "C:/Users/hp/AppData/Local/Microsoft/WinGet/Packages/Genymobile.scrcpy_Microsoft.Winget.Source_8wekyb3d8bbwe/scrcpy-win64-v3.3.3/llvm-ranlib-20"
+      - "C:/msys64/clang64/bin/llvm-ranlib20.com"
+      - "C:/msys64/clang64/bin/llvm-ranlib20.exe"
+      - "C:/msys64/clang64/bin/llvm-ranlib20"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/llvm-ranlib20.com"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/llvm-ranlib20.exe"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/llvm-ranlib20"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/llvm-ranlib20.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/llvm-ranlib20.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/llvm-ranlib20"
+      - "C:/Windows/System32/llvm-ranlib20.com"
+      - "C:/Windows/System32/llvm-ranlib20.exe"
+      - "C:/Windows/System32/llvm-ranlib20"
+      - "C:/Windows/llvm-ranlib20.com"
+      - "C:/Windows/llvm-ranlib20.exe"
+      - "C:/Windows/llvm-ranlib20"
+      - "C:/Windows/System32/wbem/llvm-ranlib20.com"
+      - "C:/Windows/System32/wbem/llvm-ranlib20.exe"
+      - "C:/Windows/System32/wbem/llvm-ranlib20"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/llvm-ranlib20.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/llvm-ranlib20.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/llvm-ranlib20"
+      - "C:/Windows/System32/OpenSSH/llvm-ranlib20.com"
+      - "C:/Windows/System32/OpenSSH/llvm-ranlib20.exe"
+      - "C:/Windows/System32/OpenSSH/llvm-ranlib20"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/llvm-ranlib20.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/llvm-ranlib20.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/llvm-ranlib20"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WindowsApps/llvm-ranlib20.com"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WindowsApps/llvm-ranlib20.exe"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WindowsApps/llvm-ranlib20"
+      - "C:/Program Files/HP/OMEN-Broadcast/Common/llvm-ranlib20.com"
+      - "C:/Program Files/HP/OMEN-Broadcast/Common/llvm-ranlib20.exe"
+      - "C:/Program Files/HP/OMEN-Broadcast/Common/llvm-ranlib20"
+      - "C:/Program Files/HP/HP One Agent/llvm-ranlib20.com"
+      - "C:/Program Files/HP/HP One Agent/llvm-ranlib20.exe"
+      - "C:/Program Files/HP/HP One Agent/llvm-ranlib20"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/llvm-ranlib20.com"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/llvm-ranlib20.exe"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/llvm-ranlib20"
+      - "C:/Program Files/Git/cmd/llvm-ranlib20.com"
+      - "C:/Program Files/Git/cmd/llvm-ranlib20.exe"
+      - "C:/Program Files/Git/cmd/llvm-ranlib20"
+      - "C:/Users/hp/AppData/Local/Programs/Python/Python314/Scripts/llvm-ranlib20.com"
+      - "C:/Users/hp/AppData/Local/Programs/Python/Python314/Scripts/llvm-ranlib20.exe"
+      - "C:/Users/hp/AppData/Local/Programs/Python/Python314/Scripts/llvm-ranlib20"
+      - "C:/Users/hp/AppData/Local/Programs/Python/Python314/llvm-ranlib20.com"
+      - "C:/Users/hp/AppData/Local/Programs/Python/Python314/llvm-ranlib20.exe"
+      - "C:/Users/hp/AppData/Local/Programs/Python/Python314/llvm-ranlib20"
+      - "C:/Users/hp/AppData/Local/Microsoft/WindowsApps/llvm-ranlib20.com"
+      - "C:/Users/hp/AppData/Local/Microsoft/WindowsApps/llvm-ranlib20.exe"
+      - "C:/Users/hp/AppData/Local/Microsoft/WindowsApps/llvm-ranlib20"
+      - "C:/Users/hp/AppData/Local/Programs/Ollama/llvm-ranlib20.com"
+      - "C:/Users/hp/AppData/Local/Programs/Ollama/llvm-ranlib20.exe"
+      - "C:/Users/hp/AppData/Local/Programs/Ollama/llvm-ranlib20"
+      - "C:/Users/hp/.lmstudio/bin/llvm-ranlib20.com"
+      - "C:/Users/hp/.lmstudio/bin/llvm-ranlib20.exe"
+      - "C:/Users/hp/.lmstudio/bin/llvm-ranlib20"
+      - "C:/Users/hp/AppData/Local/Programs/Zed/bin/llvm-ranlib20.com"
+      - "C:/Users/hp/AppData/Local/Programs/Zed/bin/llvm-ranlib20.exe"
+      - "C:/Users/hp/AppData/Local/Programs/Zed/bin/llvm-ranlib20"
+      - "C:/Users/hp/AppData/Local/Microsoft/WinGet/Packages/Genymobile.scrcpy_Microsoft.Winget.Source_8wekyb3d8bbwe/scrcpy-win64-v3.3.3/llvm-ranlib20.com"
+      - "C:/Users/hp/AppData/Local/Microsoft/WinGet/Packages/Genymobile.scrcpy_Microsoft.Winget.Source_8wekyb3d8bbwe/scrcpy-win64-v3.3.3/llvm-ranlib20.exe"
+      - "C:/Users/hp/AppData/Local/Microsoft/WinGet/Packages/Genymobile.scrcpy_Microsoft.Winget.Source_8wekyb3d8bbwe/scrcpy-win64-v3.3.3/llvm-ranlib20"
+      - "C:/msys64/clang64/bin/llvm-ranlib.com"
+    found: "C:/msys64/clang64/bin/llvm-ranlib.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\msys64\\clang64\\bin"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\windows\\system32"
+        - "C:\\windows"
+        - "C:\\windows\\System32\\Wbem"
+        - "C:\\windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Program Files\\HP\\OMEN-Broadcast\\Common"
+        - "C:\\Program Files\\HP\\HP One Agent"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\hp\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
+        - "C:\\Users\\hp\\AppData\\Local\\Programs\\Python\\Python314\\"
+        - "C:\\Users\\hp\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\hp\\AppData\\Local\\Programs\\Ollama"
+        - "C:\\Users\\hp\\.lmstudio\\bin"
+        - "C:\\Users\\hp\\AppData\\Local\\Programs\\Zed\\bin"
+        - "C:\\Users\\hp\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Genymobile.scrcpy_Microsoft.Winget.Source_8wekyb3d8bbwe\\scrcpy-win64-v3.3.3"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/msys64/clang64/share/cmake/Modules/Compiler/Clang-FindBinUtils.cmake:50 (find_program)"
+      - "C:/msys64/clang64/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:207 (include)"
+      - "CMakeLists.txt:11 (project)"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS"
+    description: "`clang-scan-deps` dependency scanner"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "clang-scan-deps-20.1"
+      - "clang-scan-deps-20"
+      - "clang-scan-deps20"
+      - "clang-scan-deps"
+    candidate_directories:
+      - "C:/msys64/clang64/bin/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Program Files/HP/OMEN-Broadcast/Common/"
+      - "C:/Program Files/HP/HP One Agent/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Users/hp/AppData/Local/Programs/Python/Python314/Scripts/"
+      - "C:/Users/hp/AppData/Local/Programs/Python/Python314/"
+      - "C:/Users/hp/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/hp/AppData/Local/Programs/Ollama/"
+      - "C:/Users/hp/.lmstudio/bin/"
+      - "C:/Users/hp/AppData/Local/Programs/Zed/bin/"
+      - "C:/Users/hp/AppData/Local/Microsoft/WinGet/Packages/Genymobile.scrcpy_Microsoft.Winget.Source_8wekyb3d8bbwe/scrcpy-win64-v3.3.3/"
+    searched_directories:
+      - "C:/msys64/clang64/bin/clang-scan-deps-20.1.com"
+      - "C:/msys64/clang64/bin/clang-scan-deps-20.1.exe"
+      - "C:/msys64/clang64/bin/clang-scan-deps-20.1"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/clang-scan-deps-20.1.com"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/clang-scan-deps-20.1.exe"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/clang-scan-deps-20.1"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/clang-scan-deps-20.1.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/clang-scan-deps-20.1.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/clang-scan-deps-20.1"
+      - "C:/Windows/System32/clang-scan-deps-20.1.com"
+      - "C:/Windows/System32/clang-scan-deps-20.1.exe"
+      - "C:/Windows/System32/clang-scan-deps-20.1"
+      - "C:/Windows/clang-scan-deps-20.1.com"
+      - "C:/Windows/clang-scan-deps-20.1.exe"
+      - "C:/Windows/clang-scan-deps-20.1"
+      - "C:/Windows/System32/wbem/clang-scan-deps-20.1.com"
+      - "C:/Windows/System32/wbem/clang-scan-deps-20.1.exe"
+      - "C:/Windows/System32/wbem/clang-scan-deps-20.1"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/clang-scan-deps-20.1.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/clang-scan-deps-20.1.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/clang-scan-deps-20.1"
+      - "C:/Windows/System32/OpenSSH/clang-scan-deps-20.1.com"
+      - "C:/Windows/System32/OpenSSH/clang-scan-deps-20.1.exe"
+      - "C:/Windows/System32/OpenSSH/clang-scan-deps-20.1"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/clang-scan-deps-20.1.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/clang-scan-deps-20.1.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/clang-scan-deps-20.1"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WindowsApps/clang-scan-deps-20.1.com"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WindowsApps/clang-scan-deps-20.1.exe"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WindowsApps/clang-scan-deps-20.1"
+      - "C:/Program Files/HP/OMEN-Broadcast/Common/clang-scan-deps-20.1.com"
+      - "C:/Program Files/HP/OMEN-Broadcast/Common/clang-scan-deps-20.1.exe"
+      - "C:/Program Files/HP/OMEN-Broadcast/Common/clang-scan-deps-20.1"
+      - "C:/Program Files/HP/HP One Agent/clang-scan-deps-20.1.com"
+      - "C:/Program Files/HP/HP One Agent/clang-scan-deps-20.1.exe"
+      - "C:/Program Files/HP/HP One Agent/clang-scan-deps-20.1"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/clang-scan-deps-20.1.com"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/clang-scan-deps-20.1.exe"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/clang-scan-deps-20.1"
+      - "C:/Program Files/Git/cmd/clang-scan-deps-20.1.com"
+      - "C:/Program Files/Git/cmd/clang-scan-deps-20.1.exe"
+      - "C:/Program Files/Git/cmd/clang-scan-deps-20.1"
+      - "C:/Users/hp/AppData/Local/Programs/Python/Python314/Scripts/clang-scan-deps-20.1.com"
+      - "C:/Users/hp/AppData/Local/Programs/Python/Python314/Scripts/clang-scan-deps-20.1.exe"
+      - "C:/Users/hp/AppData/Local/Programs/Python/Python314/Scripts/clang-scan-deps-20.1"
+      - "C:/Users/hp/AppData/Local/Programs/Python/Python314/clang-scan-deps-20.1.com"
+      - "C:/Users/hp/AppData/Local/Programs/Python/Python314/clang-scan-deps-20.1.exe"
+      - "C:/Users/hp/AppData/Local/Programs/Python/Python314/clang-scan-deps-20.1"
+      - "C:/Users/hp/AppData/Local/Microsoft/WindowsApps/clang-scan-deps-20.1.com"
+      - "C:/Users/hp/AppData/Local/Microsoft/WindowsApps/clang-scan-deps-20.1.exe"
+      - "C:/Users/hp/AppData/Local/Microsoft/WindowsApps/clang-scan-deps-20.1"
+      - "C:/Users/hp/AppData/Local/Programs/Ollama/clang-scan-deps-20.1.com"
+      - "C:/Users/hp/AppData/Local/Programs/Ollama/clang-scan-deps-20.1.exe"
+      - "C:/Users/hp/AppData/Local/Programs/Ollama/clang-scan-deps-20.1"
+      - "C:/Users/hp/.lmstudio/bin/clang-scan-deps-20.1.com"
+      - "C:/Users/hp/.lmstudio/bin/clang-scan-deps-20.1.exe"
+      - "C:/Users/hp/.lmstudio/bin/clang-scan-deps-20.1"
+      - "C:/Users/hp/AppData/Local/Programs/Zed/bin/clang-scan-deps-20.1.com"
+      - "C:/Users/hp/AppData/Local/Programs/Zed/bin/clang-scan-deps-20.1.exe"
+      - "C:/Users/hp/AppData/Local/Programs/Zed/bin/clang-scan-deps-20.1"
+      - "C:/Users/hp/AppData/Local/Microsoft/WinGet/Packages/Genymobile.scrcpy_Microsoft.Winget.Source_8wekyb3d8bbwe/scrcpy-win64-v3.3.3/clang-scan-deps-20.1.com"
+      - "C:/Users/hp/AppData/Local/Microsoft/WinGet/Packages/Genymobile.scrcpy_Microsoft.Winget.Source_8wekyb3d8bbwe/scrcpy-win64-v3.3.3/clang-scan-deps-20.1.exe"
+      - "C:/Users/hp/AppData/Local/Microsoft/WinGet/Packages/Genymobile.scrcpy_Microsoft.Winget.Source_8wekyb3d8bbwe/scrcpy-win64-v3.3.3/clang-scan-deps-20.1"
+      - "C:/msys64/clang64/bin/clang-scan-deps-20.com"
+      - "C:/msys64/clang64/bin/clang-scan-deps-20.exe"
+      - "C:/msys64/clang64/bin/clang-scan-deps-20"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/clang-scan-deps-20.com"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/clang-scan-deps-20.exe"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/clang-scan-deps-20"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/clang-scan-deps-20.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/clang-scan-deps-20.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/clang-scan-deps-20"
+      - "C:/Windows/System32/clang-scan-deps-20.com"
+      - "C:/Windows/System32/clang-scan-deps-20.exe"
+      - "C:/Windows/System32/clang-scan-deps-20"
+      - "C:/Windows/clang-scan-deps-20.com"
+      - "C:/Windows/clang-scan-deps-20.exe"
+      - "C:/Windows/clang-scan-deps-20"
+      - "C:/Windows/System32/wbem/clang-scan-deps-20.com"
+      - "C:/Windows/System32/wbem/clang-scan-deps-20.exe"
+      - "C:/Windows/System32/wbem/clang-scan-deps-20"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/clang-scan-deps-20.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/clang-scan-deps-20.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/clang-scan-deps-20"
+      - "C:/Windows/System32/OpenSSH/clang-scan-deps-20.com"
+      - "C:/Windows/System32/OpenSSH/clang-scan-deps-20.exe"
+      - "C:/Windows/System32/OpenSSH/clang-scan-deps-20"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/clang-scan-deps-20.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/clang-scan-deps-20.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/clang-scan-deps-20"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WindowsApps/clang-scan-deps-20.com"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WindowsApps/clang-scan-deps-20.exe"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WindowsApps/clang-scan-deps-20"
+      - "C:/Program Files/HP/OMEN-Broadcast/Common/clang-scan-deps-20.com"
+      - "C:/Program Files/HP/OMEN-Broadcast/Common/clang-scan-deps-20.exe"
+      - "C:/Program Files/HP/OMEN-Broadcast/Common/clang-scan-deps-20"
+      - "C:/Program Files/HP/HP One Agent/clang-scan-deps-20.com"
+      - "C:/Program Files/HP/HP One Agent/clang-scan-deps-20.exe"
+      - "C:/Program Files/HP/HP One Agent/clang-scan-deps-20"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/clang-scan-deps-20.com"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/clang-scan-deps-20.exe"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/clang-scan-deps-20"
+      - "C:/Program Files/Git/cmd/clang-scan-deps-20.com"
+      - "C:/Program Files/Git/cmd/clang-scan-deps-20.exe"
+      - "C:/Program Files/Git/cmd/clang-scan-deps-20"
+      - "C:/Users/hp/AppData/Local/Programs/Python/Python314/Scripts/clang-scan-deps-20.com"
+      - "C:/Users/hp/AppData/Local/Programs/Python/Python314/Scripts/clang-scan-deps-20.exe"
+      - "C:/Users/hp/AppData/Local/Programs/Python/Python314/Scripts/clang-scan-deps-20"
+      - "C:/Users/hp/AppData/Local/Programs/Python/Python314/clang-scan-deps-20.com"
+      - "C:/Users/hp/AppData/Local/Programs/Python/Python314/clang-scan-deps-20.exe"
+      - "C:/Users/hp/AppData/Local/Programs/Python/Python314/clang-scan-deps-20"
+      - "C:/Users/hp/AppData/Local/Microsoft/WindowsApps/clang-scan-deps-20.com"
+      - "C:/Users/hp/AppData/Local/Microsoft/WindowsApps/clang-scan-deps-20.exe"
+      - "C:/Users/hp/AppData/Local/Microsoft/WindowsApps/clang-scan-deps-20"
+      - "C:/Users/hp/AppData/Local/Programs/Ollama/clang-scan-deps-20.com"
+      - "C:/Users/hp/AppData/Local/Programs/Ollama/clang-scan-deps-20.exe"
+      - "C:/Users/hp/AppData/Local/Programs/Ollama/clang-scan-deps-20"
+      - "C:/Users/hp/.lmstudio/bin/clang-scan-deps-20.com"
+      - "C:/Users/hp/.lmstudio/bin/clang-scan-deps-20.exe"
+      - "C:/Users/hp/.lmstudio/bin/clang-scan-deps-20"
+      - "C:/Users/hp/AppData/Local/Programs/Zed/bin/clang-scan-deps-20.com"
+      - "C:/Users/hp/AppData/Local/Programs/Zed/bin/clang-scan-deps-20.exe"
+      - "C:/Users/hp/AppData/Local/Programs/Zed/bin/clang-scan-deps-20"
+      - "C:/Users/hp/AppData/Local/Microsoft/WinGet/Packages/Genymobile.scrcpy_Microsoft.Winget.Source_8wekyb3d8bbwe/scrcpy-win64-v3.3.3/clang-scan-deps-20.com"
+      - "C:/Users/hp/AppData/Local/Microsoft/WinGet/Packages/Genymobile.scrcpy_Microsoft.Winget.Source_8wekyb3d8bbwe/scrcpy-win64-v3.3.3/clang-scan-deps-20.exe"
+      - "C:/Users/hp/AppData/Local/Microsoft/WinGet/Packages/Genymobile.scrcpy_Microsoft.Winget.Source_8wekyb3d8bbwe/scrcpy-win64-v3.3.3/clang-scan-deps-20"
+      - "C:/msys64/clang64/bin/clang-scan-deps20.com"
+      - "C:/msys64/clang64/bin/clang-scan-deps20.exe"
+      - "C:/msys64/clang64/bin/clang-scan-deps20"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/clang-scan-deps20.com"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/clang-scan-deps20.exe"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/clang-scan-deps20"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/clang-scan-deps20.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/clang-scan-deps20.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/clang-scan-deps20"
+      - "C:/Windows/System32/clang-scan-deps20.com"
+      - "C:/Windows/System32/clang-scan-deps20.exe"
+      - "C:/Windows/System32/clang-scan-deps20"
+      - "C:/Windows/clang-scan-deps20.com"
+      - "C:/Windows/clang-scan-deps20.exe"
+      - "C:/Windows/clang-scan-deps20"
+      - "C:/Windows/System32/wbem/clang-scan-deps20.com"
+      - "C:/Windows/System32/wbem/clang-scan-deps20.exe"
+      - "C:/Windows/System32/wbem/clang-scan-deps20"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/clang-scan-deps20.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/clang-scan-deps20.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/clang-scan-deps20"
+      - "C:/Windows/System32/OpenSSH/clang-scan-deps20.com"
+      - "C:/Windows/System32/OpenSSH/clang-scan-deps20.exe"
+      - "C:/Windows/System32/OpenSSH/clang-scan-deps20"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/clang-scan-deps20.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/clang-scan-deps20.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/clang-scan-deps20"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WindowsApps/clang-scan-deps20.com"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WindowsApps/clang-scan-deps20.exe"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WindowsApps/clang-scan-deps20"
+      - "C:/Program Files/HP/OMEN-Broadcast/Common/clang-scan-deps20.com"
+      - "C:/Program Files/HP/OMEN-Broadcast/Common/clang-scan-deps20.exe"
+      - "C:/Program Files/HP/OMEN-Broadcast/Common/clang-scan-deps20"
+      - "C:/Program Files/HP/HP One Agent/clang-scan-deps20.com"
+      - "C:/Program Files/HP/HP One Agent/clang-scan-deps20.exe"
+      - "C:/Program Files/HP/HP One Agent/clang-scan-deps20"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/clang-scan-deps20.com"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/clang-scan-deps20.exe"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/clang-scan-deps20"
+      - "C:/Program Files/Git/cmd/clang-scan-deps20.com"
+      - "C:/Program Files/Git/cmd/clang-scan-deps20.exe"
+      - "C:/Program Files/Git/cmd/clang-scan-deps20"
+      - "C:/Users/hp/AppData/Local/Programs/Python/Python314/Scripts/clang-scan-deps20.com"
+      - "C:/Users/hp/AppData/Local/Programs/Python/Python314/Scripts/clang-scan-deps20.exe"
+      - "C:/Users/hp/AppData/Local/Programs/Python/Python314/Scripts/clang-scan-deps20"
+      - "C:/Users/hp/AppData/Local/Programs/Python/Python314/clang-scan-deps20.com"
+      - "C:/Users/hp/AppData/Local/Programs/Python/Python314/clang-scan-deps20.exe"
+      - "C:/Users/hp/AppData/Local/Programs/Python/Python314/clang-scan-deps20"
+      - "C:/Users/hp/AppData/Local/Microsoft/WindowsApps/clang-scan-deps20.com"
+      - "C:/Users/hp/AppData/Local/Microsoft/WindowsApps/clang-scan-deps20.exe"
+      - "C:/Users/hp/AppData/Local/Microsoft/WindowsApps/clang-scan-deps20"
+      - "C:/Users/hp/AppData/Local/Programs/Ollama/clang-scan-deps20.com"
+      - "C:/Users/hp/AppData/Local/Programs/Ollama/clang-scan-deps20.exe"
+      - "C:/Users/hp/AppData/Local/Programs/Ollama/clang-scan-deps20"
+      - "C:/Users/hp/.lmstudio/bin/clang-scan-deps20.com"
+      - "C:/Users/hp/.lmstudio/bin/clang-scan-deps20.exe"
+      - "C:/Users/hp/.lmstudio/bin/clang-scan-deps20"
+      - "C:/Users/hp/AppData/Local/Programs/Zed/bin/clang-scan-deps20.com"
+      - "C:/Users/hp/AppData/Local/Programs/Zed/bin/clang-scan-deps20.exe"
+      - "C:/Users/hp/AppData/Local/Programs/Zed/bin/clang-scan-deps20"
+      - "C:/Users/hp/AppData/Local/Microsoft/WinGet/Packages/Genymobile.scrcpy_Microsoft.Winget.Source_8wekyb3d8bbwe/scrcpy-win64-v3.3.3/clang-scan-deps20.com"
+      - "C:/Users/hp/AppData/Local/Microsoft/WinGet/Packages/Genymobile.scrcpy_Microsoft.Winget.Source_8wekyb3d8bbwe/scrcpy-win64-v3.3.3/clang-scan-deps20.exe"
+      - "C:/Users/hp/AppData/Local/Microsoft/WinGet/Packages/Genymobile.scrcpy_Microsoft.Winget.Source_8wekyb3d8bbwe/scrcpy-win64-v3.3.3/clang-scan-deps20"
+      - "C:/msys64/clang64/bin/clang-scan-deps.com"
+    found: "C:/msys64/clang64/bin/clang-scan-deps.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\msys64\\clang64\\bin"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\windows\\system32"
+        - "C:\\windows"
+        - "C:\\windows\\System32\\Wbem"
+        - "C:\\windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Program Files\\HP\\OMEN-Broadcast\\Common"
+        - "C:\\Program Files\\HP\\HP One Agent"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\hp\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
+        - "C:\\Users\\hp\\AppData\\Local\\Programs\\Python\\Python314\\"
+        - "C:\\Users\\hp\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\hp\\AppData\\Local\\Programs\\Ollama"
+        - "C:\\Users\\hp\\.lmstudio\\bin"
+        - "C:\\Users\\hp\\AppData\\Local\\Programs\\Zed\\bin"
+        - "C:\\Users\\hp\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Genymobile.scrcpy_Microsoft.Winget.Source_8wekyb3d8bbwe\\scrcpy-win64-v3.3.3"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/msys64/clang64/share/cmake/Modules/CMakeDetermineRCCompiler.cmake:40 (find_program)"
+      - "C:/msys64/clang64/share/cmake/Modules/Platform/Windows-GNU.cmake:169 (enable_language)"
+      - "C:/msys64/clang64/share/cmake/Modules/Platform/Windows-Clang.cmake:270 (__windows_compiler_gnu)"
+      - "C:/msys64/clang64/share/cmake/Modules/Platform/Windows-Clang.cmake:282 (__windows_compiler_clang_base)"
+      - "C:/msys64/clang64/share/cmake/Modules/Platform/Windows-Clang-CXX.cmake:3 (__windows_compiler_clang)"
+      - "C:/msys64/clang64/share/cmake/Modules/CMakeCXXInformation.cmake:48 (include)"
+      - "CMakeLists.txt:11 (project)"
+    mode: "program"
+    variable: "CMAKE_RC_COMPILER"
+    description: "RC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "windres"
+      - "windres"
+    candidate_directories:
+      - "C:/msys64/clang64/bin/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Program Files/HP/OMEN-Broadcast/Common/"
+      - "C:/Program Files/HP/HP One Agent/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Users/hp/AppData/Local/Programs/Python/Python314/Scripts/"
+      - "C:/Users/hp/AppData/Local/Programs/Python/Python314/"
+      - "C:/Users/hp/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/hp/AppData/Local/Programs/Ollama/"
+      - "C:/Users/hp/.lmstudio/bin/"
+      - "C:/Users/hp/AppData/Local/Programs/Zed/bin/"
+      - "C:/Users/hp/AppData/Local/Microsoft/WinGet/Packages/Genymobile.scrcpy_Microsoft.Winget.Source_8wekyb3d8bbwe/scrcpy-win64-v3.3.3/"
+      - "C:/Program Files/bin/"
+      - "C:/Program Files/sbin/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/bin/"
+      - "C:/Program Files (x86)/sbin/"
+      - "C:/Program Files (x86)/"
+      - "C:/msys64/clang64/bin/"
+      - "C:/msys64/clang64/sbin/"
+      - "C:/msys64/clang64/"
+      - "C:/Program Files (x86)/SeaDrop/bin/"
+      - "C:/Program Files (x86)/SeaDrop/sbin/"
+      - "C:/Program Files (x86)/SeaDrop/"
+    searched_directories:
+      - "C:/msys64/clang64/bin/windres.com"
+    found: "C:/msys64/clang64/bin/windres.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\msys64\\clang64\\bin"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\windows\\system32"
+        - "C:\\windows"
+        - "C:\\windows\\System32\\Wbem"
+        - "C:\\windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Program Files\\HP\\OMEN-Broadcast\\Common"
+        - "C:\\Program Files\\HP\\HP One Agent"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\hp\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
+        - "C:\\Users\\hp\\AppData\\Local\\Programs\\Python\\Python314\\"
+        - "C:\\Users\\hp\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\hp\\AppData\\Local\\Programs\\Ollama"
+        - "C:\\Users\\hp\\.lmstudio\\bin"
+        - "C:\\Users\\hp\\AppData\\Local\\Programs\\Zed\\bin"
+        - "C:\\Users\\hp\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Genymobile.scrcpy_Microsoft.Winget.Source_8wekyb3d8bbwe\\scrcpy-win64-v3.3.3"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/SeaDrop"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/msys64/clang64"
+        - "C:/Program Files (x86)/SeaDrop"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/msys64/clang64/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "C:/msys64/clang64/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:11 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/Users/hp/Documents/SeagrEnv/build/CMakeFiles/CMakeScratch/TryCompile-zjfzos"
+      binary: "C:/Users/hp/Documents/SeagrEnv/build/CMakeFiles/CMakeScratch/TryCompile-zjfzos"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/msys64/clang64/bin/clang-scan-deps.exe"
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/hp/Documents/SeagrEnv/build/CMakeFiles/CMakeScratch/TryCompile-zjfzos'
+        
+        Run Build Command(s): C:/msys64/clang64/bin/ninja.exe -v cmTC_ed9ba
+        [1/2] C:\\msys64\\clang64\\bin\\clang++.exe   -v -MD -MT CMakeFiles/cmTC_ed9ba.dir/CMakeCXXCompilerABI.cpp.obj -MF CMakeFiles\\cmTC_ed9ba.dir\\CMakeCXXCompilerABI.cpp.obj.d -o CMakeFiles/cmTC_ed9ba.dir/CMakeCXXCompilerABI.cpp.obj -c C:/msys64/clang64/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+        clang version 20.1.8
+        Target: x86_64-w64-windows-gnu
+        Thread model: posix
+        InstalledDir: C:/msys64/clang64/bin
+         (in-process)
+         "C:/msys64/clang64/bin/clang++.exe" -cc1 -triple x86_64-w64-windows-gnu -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=none -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -mms-bitfields -funwind-tables=2 -fno-sized-deallocation -fno-use-init-array -target-cpu x86-64 -tune-cpu generic -debugger-tuning=gdb -fdebug-compilation-dir=C:/Users/hp/Documents/SeagrEnv/build/CMakeFiles/CMakeScratch/TryCompile-zjfzos -v -fcoverage-compilation-dir=C:/Users/hp/Documents/SeagrEnv/build/CMakeFiles/CMakeScratch/TryCompile-zjfzos -resource-dir C:/msys64/clang64/lib/clang/20 -dependency-file "CMakeFiles\\\\cmTC_ed9ba.dir\\\\CMakeCXXCompilerABI.cpp.obj.d" -MT CMakeFiles/cmTC_ed9ba.dir/CMakeCXXCompilerABI.cpp.obj -sys-header-deps -internal-isystem C:/msys64/clang64/x86_64-w64-mingw32/include/c++/v1 -internal-isystem C:/msys64/clang64/include/c++/v1 -internal-isystem C:/msys64/clang64/lib/clang/20/include -internal-isystem C:/msys64/clang64/x86_64-w64-mingw32/include -internal-isystem C:/msys64/clang64/x86_64-w64-mingw32/usr/include -internal-isystem C:/msys64/clang64/include -fdeprecated-macro -ferror-limit 19 -fno-use-cxa-atexit -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fcxx-exceptions -fexceptions -exception-model=seh -faddrsig -o CMakeFiles/cmTC_ed9ba.dir/CMakeCXXCompilerABI.cpp.obj -x c++ C:/msys64/clang64/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+        clang -cc1 version 20.1.8 based upon LLVM 20.1.8 default target x86_64-w64-windows-gnu
+        ignoring nonexistent directory "C:/msys64/clang64/x86_64-w64-mingw32/include/c++/v1"
+        ignoring nonexistent directory "C:/msys64/clang64/x86_64-w64-mingw32/include"
+        ignoring nonexistent directory "C:/msys64/clang64/x86_64-w64-mingw32/usr/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         C:/msys64/clang64/include/c++/v1
+         C:/msys64/clang64/lib/clang/20/include
+         C:/msys64/clang64/include
+        End of search list.
+        [2/2] C:\\windows\\system32\\cmd.exe /C "cd . && C:\\msys64\\clang64\\bin\\clang++.exe  -v -Wl,-v CMakeFiles/cmTC_ed9ba.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_ed9ba.exe -Wl,--out-implib,libcmTC_ed9ba.dll.a -Wl,--major-image-version,0,--minor-image-version,0   && cd ."
+        clang version 20.1.8
+        Target: x86_64-w64-windows-gnu
+        Thread model: posix
+        InstalledDir: C:/msys64/clang64/bin
+         "C:/msys64/clang64/bin/ld.lld" -m i386pep -Bdynamic -o cmTC_ed9ba.exe C:/msys64/clang64/lib/crt2.o C:/msys64/clang64/lib/crtbegin.o -LC:/msys64/clang64/x86_64-w64-mingw32/lib -LC:/msys64/clang64/x86_64-w64-mingw32/mingw/lib -LC:/msys64/clang64/lib -LC:/msys64/clang64/lib/clang/20/lib/windows -v CMakeFiles/cmTC_ed9ba.dir/CMakeCXXCompilerABI.cpp.obj --out-implib libcmTC_ed9ba.dll.a --major-image-version 0 --minor-image-version 0 -lc++ -lmingw32 C:/msys64/clang64/lib/clang/20/lib/windows/libclang_rt.builtins-x86_64.a -lunwind -lmoldname -lmingwex -lmsvcrt -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 C:/msys64/clang64/lib/clang/20/lib/windows/libclang_rt.builtins-x86_64.a -lunwind -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/msys64/clang64/lib/crtend.o
+        LLD 20.1.8 (https://github.com/msys2/MINGW-packages 2c07222d2d8701ee258b1f85645b32661c2869f3) (compatible with GNU linkers)
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/msys64/clang64/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:217 (message)"
+      - "C:/msys64/clang64/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:11 (project)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [C:/msys64/clang64/include/c++/v1]
+          add: [C:/msys64/clang64/lib/clang/20/include]
+          add: [C:/msys64/clang64/include]
+        end of search list found
+        collapse include dir [C:/msys64/clang64/include/c++/v1] ==> [C:/msys64/clang64/include/c++/v1]
+        collapse include dir [C:/msys64/clang64/lib/clang/20/include] ==> [C:/msys64/clang64/lib/clang/20/include]
+        collapse include dir [C:/msys64/clang64/include] ==> [C:/msys64/clang64/include]
+        implicit include dirs: [C:/msys64/clang64/include/c++/v1;C:/msys64/clang64/lib/clang/20/include;C:/msys64/clang64/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/msys64/clang64/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
+      - "C:/msys64/clang64/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:11 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
+        ignore line: [Change Dir: 'C:/Users/hp/Documents/SeagrEnv/build/CMakeFiles/CMakeScratch/TryCompile-zjfzos']
+        ignore line: []
+        ignore line: [Run Build Command(s): C:/msys64/clang64/bin/ninja.exe -v cmTC_ed9ba]
+        ignore line: [[1/2] C:\\msys64\\clang64\\bin\\clang++.exe   -v -MD -MT CMakeFiles/cmTC_ed9ba.dir/CMakeCXXCompilerABI.cpp.obj -MF CMakeFiles\\cmTC_ed9ba.dir\\CMakeCXXCompilerABI.cpp.obj.d -o CMakeFiles/cmTC_ed9ba.dir/CMakeCXXCompilerABI.cpp.obj -c C:/msys64/clang64/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [clang version 20.1.8]
+        ignore line: [Target: x86_64-w64-windows-gnu]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: C:/msys64/clang64/bin]
+        ignore line: [ (in-process)]
+        ignore line: [ "C:/msys64/clang64/bin/clang++.exe" -cc1 -triple x86_64-w64-windows-gnu -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=none -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -mms-bitfields -funwind-tables=2 -fno-sized-deallocation -fno-use-init-array -target-cpu x86-64 -tune-cpu generic -debugger-tuning=gdb -fdebug-compilation-dir=C:/Users/hp/Documents/SeagrEnv/build/CMakeFiles/CMakeScratch/TryCompile-zjfzos -v -fcoverage-compilation-dir=C:/Users/hp/Documents/SeagrEnv/build/CMakeFiles/CMakeScratch/TryCompile-zjfzos -resource-dir C:/msys64/clang64/lib/clang/20 -dependency-file "CMakeFiles\\\\cmTC_ed9ba.dir\\\\CMakeCXXCompilerABI.cpp.obj.d" -MT CMakeFiles/cmTC_ed9ba.dir/CMakeCXXCompilerABI.cpp.obj -sys-header-deps -internal-isystem C:/msys64/clang64/x86_64-w64-mingw32/include/c++/v1 -internal-isystem C:/msys64/clang64/include/c++/v1 -internal-isystem C:/msys64/clang64/lib/clang/20/include -internal-isystem C:/msys64/clang64/x86_64-w64-mingw32/include -internal-isystem C:/msys64/clang64/x86_64-w64-mingw32/usr/include -internal-isystem C:/msys64/clang64/include -fdeprecated-macro -ferror-limit 19 -fno-use-cxa-atexit -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fcxx-exceptions -fexceptions -exception-model=seh -faddrsig -o CMakeFiles/cmTC_ed9ba.dir/CMakeCXXCompilerABI.cpp.obj -x c++ C:/msys64/clang64/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [clang -cc1 version 20.1.8 based upon LLVM 20.1.8 default target x86_64-w64-windows-gnu]
+        ignore line: [ignoring nonexistent directory "C:/msys64/clang64/x86_64-w64-mingw32/include/c++/v1"]
+        ignore line: [ignoring nonexistent directory "C:/msys64/clang64/x86_64-w64-mingw32/include"]
+        ignore line: [ignoring nonexistent directory "C:/msys64/clang64/x86_64-w64-mingw32/usr/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ C:/msys64/clang64/include/c++/v1]
+        ignore line: [ C:/msys64/clang64/lib/clang/20/include]
+        ignore line: [ C:/msys64/clang64/include]
+        ignore line: [End of search list.]
+        ignore line: [[2/2] C:\\windows\\system32\\cmd.exe /C "cd . && C:\\msys64\\clang64\\bin\\clang++.exe  -v -Wl -v CMakeFiles/cmTC_ed9ba.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_ed9ba.exe -Wl --out-implib libcmTC_ed9ba.dll.a -Wl --major-image-version 0 --minor-image-version 0   && cd ."]
+        ignore line: [clang version 20.1.8]
+        ignore line: [Target: x86_64-w64-windows-gnu]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: C:/msys64/clang64/bin]
+        link line: [ "C:/msys64/clang64/bin/ld.lld" -m i386pep -Bdynamic -o cmTC_ed9ba.exe C:/msys64/clang64/lib/crt2.o C:/msys64/clang64/lib/crtbegin.o -LC:/msys64/clang64/x86_64-w64-mingw32/lib -LC:/msys64/clang64/x86_64-w64-mingw32/mingw/lib -LC:/msys64/clang64/lib -LC:/msys64/clang64/lib/clang/20/lib/windows -v CMakeFiles/cmTC_ed9ba.dir/CMakeCXXCompilerABI.cpp.obj --out-implib libcmTC_ed9ba.dll.a --major-image-version 0 --minor-image-version 0 -lc++ -lmingw32 C:/msys64/clang64/lib/clang/20/lib/windows/libclang_rt.builtins-x86_64.a -lunwind -lmoldname -lmingwex -lmsvcrt -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 C:/msys64/clang64/lib/clang/20/lib/windows/libclang_rt.builtins-x86_64.a -lunwind -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/msys64/clang64/lib/crtend.o]
+          arg [C:/msys64/clang64/bin/ld.lld] ==> ignore
+          arg [-m] ==> ignore
+          arg [i386pep] ==> ignore
+          arg [-Bdynamic] ==> search dynamic
+          arg [-o] ==> ignore
+          arg [cmTC_ed9ba.exe] ==> ignore
+          arg [C:/msys64/clang64/lib/crt2.o] ==> obj [C:/msys64/clang64/lib/crt2.o]
+          arg [C:/msys64/clang64/lib/crtbegin.o] ==> obj [C:/msys64/clang64/lib/crtbegin.o]
+          arg [-LC:/msys64/clang64/x86_64-w64-mingw32/lib] ==> dir [C:/msys64/clang64/x86_64-w64-mingw32/lib]
+          arg [-LC:/msys64/clang64/x86_64-w64-mingw32/mingw/lib] ==> dir [C:/msys64/clang64/x86_64-w64-mingw32/mingw/lib]
+          arg [-LC:/msys64/clang64/lib] ==> dir [C:/msys64/clang64/lib]
+          arg [-LC:/msys64/clang64/lib/clang/20/lib/windows] ==> dir [C:/msys64/clang64/lib/clang/20/lib/windows]
+          arg [-v] ==> ignore
+          arg [CMakeFiles/cmTC_ed9ba.dir/CMakeCXXCompilerABI.cpp.obj] ==> ignore
+          arg [--out-implib] ==> ignore
+          arg [libcmTC_ed9ba.dll.a] ==> ignore
+          arg [--major-image-version] ==> ignore
+          arg [0] ==> ignore
+          arg [--minor-image-version] ==> ignore
+          arg [0] ==> ignore
+          arg [-lc++] ==> lib [c++]
+          arg [-lmingw32] ==> lib [mingw32]
+          arg [C:/msys64/clang64/lib/clang/20/lib/windows/libclang_rt.builtins-x86_64.a] ==> lib [C:/msys64/clang64/lib/clang/20/lib/windows/libclang_rt.builtins-x86_64.a]
+          arg [-lunwind] ==> lib [unwind]
+          arg [-lmoldname] ==> lib [moldname]
+          arg [-lmingwex] ==> lib [mingwex]
+          arg [-lmsvcrt] ==> lib [msvcrt]
+          arg [-ladvapi32] ==> lib [advapi32]
+          arg [-lshell32] ==> lib [shell32]
+          arg [-luser32] ==> lib [user32]
+          arg [-lkernel32] ==> lib [kernel32]
+          arg [-lmingw32] ==> lib [mingw32]
+          arg [C:/msys64/clang64/lib/clang/20/lib/windows/libclang_rt.builtins-x86_64.a] ==> lib [C:/msys64/clang64/lib/clang/20/lib/windows/libclang_rt.builtins-x86_64.a]
+          arg [-lunwind] ==> lib [unwind]
+          arg [-lmoldname] ==> lib [moldname]
+          arg [-lmingwex] ==> lib [mingwex]
+          arg [-lmsvcrt] ==> lib [msvcrt]
+          arg [-lkernel32] ==> lib [kernel32]
+          arg [C:/msys64/clang64/lib/crtend.o] ==> obj [C:/msys64/clang64/lib/crtend.o]
+        linker tool for 'CXX': C:/msys64/clang64/bin/ld.lld
+        remove lib [C:/msys64/clang64/lib/clang/20/lib/windows/libclang_rt.builtins-x86_64.a]
+        remove lib [msvcrt]
+        remove lib [C:/msys64/clang64/lib/clang/20/lib/windows/libclang_rt.builtins-x86_64.a]
+        remove lib [msvcrt]
+        collapse library dir [C:/msys64/clang64/x86_64-w64-mingw32/lib] ==> [C:/msys64/clang64/x86_64-w64-mingw32/lib]
+        collapse library dir [C:/msys64/clang64/x86_64-w64-mingw32/mingw/lib] ==> [C:/msys64/clang64/x86_64-w64-mingw32/mingw/lib]
+        collapse library dir [C:/msys64/clang64/lib] ==> [C:/msys64/clang64/lib]
+        collapse library dir [C:/msys64/clang64/lib/clang/20/lib/windows] ==> [C:/msys64/clang64/lib/clang/20/lib/windows]
+        implicit libs: [c++;mingw32;unwind;moldname;mingwex;advapi32;shell32;user32;kernel32;mingw32;unwind;moldname;mingwex;kernel32]
+        implicit objs: [C:/msys64/clang64/lib/crt2.o;C:/msys64/clang64/lib/crtbegin.o;C:/msys64/clang64/lib/crtend.o]
+        implicit dirs: [C:/msys64/clang64/x86_64-w64-mingw32/lib;C:/msys64/clang64/x86_64-w64-mingw32/mingw/lib;C:/msys64/clang64/lib;C:/msys64/clang64/lib/clang/20/lib/windows]
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/msys64/clang64/share/cmake/Modules/Internal/CMakeDetermineLinkerId.cmake:36 (message)"
+      - "C:/msys64/clang64/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
+      - "C:/msys64/clang64/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:11 (project)"
+    message: |
+      Running the CXX compiler's linker: "C:/msys64/clang64/bin/ld.lld" "-v"
+      LLD 20.1.8 (https://github.com/msys2/MINGW-packages 2c07222d2d8701ee258b1f85645b32661c2869f3) (compatible with GNU linkers)
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/msys64/clang64/share/cmake/Modules/FindPkgConfig.cmake:69 (find_program)"
+      - "CMakeLists.txt:64 (find_package)"
+    mode: "program"
+    variable: "PKG_CONFIG_EXECUTABLE"
+    description: "pkg-config executable"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "pkg-config.bat"
+      - "pkg-config"
+      - "pkgconf"
+    candidate_directories:
+      - "C:/msys64/clang64/bin/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Program Files/HP/OMEN-Broadcast/Common/"
+      - "C:/Program Files/HP/HP One Agent/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Users/hp/AppData/Local/Programs/Python/Python314/Scripts/"
+      - "C:/Users/hp/AppData/Local/Programs/Python/Python314/"
+      - "C:/Users/hp/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/hp/AppData/Local/Programs/Ollama/"
+      - "C:/Users/hp/.lmstudio/bin/"
+      - "C:/Users/hp/AppData/Local/Programs/Zed/bin/"
+      - "C:/Users/hp/AppData/Local/Microsoft/WinGet/Packages/Genymobile.scrcpy_Microsoft.Winget.Source_8wekyb3d8bbwe/scrcpy-win64-v3.3.3/"
+      - "C:/Program Files/bin/"
+      - "C:/Program Files/sbin/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/bin/"
+      - "C:/Program Files (x86)/sbin/"
+      - "C:/Program Files (x86)/"
+      - "C:/msys64/clang64/bin/"
+      - "C:/msys64/clang64/sbin/"
+      - "C:/msys64/clang64/"
+      - "C:/Program Files (x86)/SeaDrop/bin/"
+      - "C:/Program Files (x86)/SeaDrop/sbin/"
+      - "C:/Program Files (x86)/SeaDrop/"
+    searched_directories:
+      - "C:/msys64/clang64/bin/pkg-config.bat.com"
+      - "C:/msys64/clang64/bin/pkg-config.bat.exe"
+      - "C:/msys64/clang64/bin/pkg-config.bat"
+      - "C:/msys64/clang64/bin/pkg-config.com"
+    found: "C:/msys64/clang64/bin/pkg-config.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\msys64\\clang64\\bin"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\windows\\system32"
+        - "C:\\windows"
+        - "C:\\windows\\System32\\Wbem"
+        - "C:\\windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Program Files\\HP\\OMEN-Broadcast\\Common"
+        - "C:\\Program Files\\HP\\HP One Agent"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\hp\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
+        - "C:\\Users\\hp\\AppData\\Local\\Programs\\Python\\Python314\\"
+        - "C:\\Users\\hp\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\hp\\AppData\\Local\\Programs\\Ollama"
+        - "C:\\Users\\hp\\.lmstudio\\bin"
+        - "C:\\Users\\hp\\AppData\\Local\\Programs\\Zed\\bin"
+        - "C:\\Users\\hp\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Genymobile.scrcpy_Microsoft.Winget.Source_8wekyb3d8bbwe\\scrcpy-win64-v3.3.3"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/SeaDrop"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/msys64/clang64"
+        - "C:/Program Files (x86)/SeaDrop"
+...
+
+---
+events:
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/msys64/clang64/share/cmake/Modules/FindPkgConfig.cmake:307 (find_library)"
+      - "C:/msys64/clang64/share/cmake/Modules/FindPkgConfig.cmake:357 (_pkg_find_libs)"
+      - "C:/msys64/clang64/share/cmake/Modules/FindPkgConfig.cmake:695 (_pkg_recalculate)"
+      - "C:/msys64/clang64/share/cmake/Modules/FindPkgConfig.cmake:867 (_pkg_check_modules_internal)"
+      - "CMakeLists.txt:67 (pkg_check_modules)"
+    mode: "library"
+    variable: "pkgcfg_lib_SODIUM_sodium"
+    description: "Path to a library."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "sodium"
+    candidate_directories:
+      - "C:/msys64/clang64/lib/"
+    found: "C:/msys64/clang64/lib/libsodium.dll.a"
+    search_context:
+      ENV{PATH}:
+        - "C:\\msys64\\clang64\\bin"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\windows\\system32"
+        - "C:\\windows"
+        - "C:\\windows\\System32\\Wbem"
+        - "C:\\windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Program Files\\HP\\OMEN-Broadcast\\Common"
+        - "C:\\Program Files\\HP\\HP One Agent"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\hp\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
+        - "C:\\Users\\hp\\AppData\\Local\\Programs\\Python\\Python314\\"
+        - "C:\\Users\\hp\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\hp\\AppData\\Local\\Programs\\Ollama"
+        - "C:\\Users\\hp\\.lmstudio\\bin"
+        - "C:\\Users\\hp\\AppData\\Local\\Programs\\Zed\\bin"
+        - "C:\\Users\\hp\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Genymobile.scrcpy_Microsoft.Winget.Source_8wekyb3d8bbwe\\scrcpy-win64-v3.3.3"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/SeaDrop"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/msys64/clang64"
+        - "C:/Program Files (x86)/SeaDrop"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "C:/Program Files (x86)/SeaDrop/bin"
+        - "C:/msys64/clang64/bin"
+        - "/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/msys64/clang64/share/cmake/Modules/FindPkgConfig.cmake:307 (find_library)"
+      - "C:/msys64/clang64/share/cmake/Modules/FindPkgConfig.cmake:357 (_pkg_find_libs)"
+      - "C:/msys64/clang64/share/cmake/Modules/FindPkgConfig.cmake:695 (_pkg_recalculate)"
+      - "C:/msys64/clang64/share/cmake/Modules/FindPkgConfig.cmake:867 (_pkg_check_modules_internal)"
+      - "CMakeLists.txt:70 (pkg_check_modules)"
+    mode: "library"
+    variable: "pkgcfg_lib_SQLITE_sqlite3"
+    description: "Path to a library."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "sqlite3"
+    candidate_directories:
+      - "C:/msys64/clang64/lib/"
+    found: "C:/msys64/clang64/lib/libsqlite3.dll.a"
+    search_context:
+      ENV{PATH}:
+        - "C:\\msys64\\clang64\\bin"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\windows\\system32"
+        - "C:\\windows"
+        - "C:\\windows\\System32\\Wbem"
+        - "C:\\windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Program Files\\HP\\OMEN-Broadcast\\Common"
+        - "C:\\Program Files\\HP\\HP One Agent"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\hp\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
+        - "C:\\Users\\hp\\AppData\\Local\\Programs\\Python\\Python314\\"
+        - "C:\\Users\\hp\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\hp\\AppData\\Local\\Programs\\Ollama"
+        - "C:\\Users\\hp\\.lmstudio\\bin"
+        - "C:\\Users\\hp\\AppData\\Local\\Programs\\Zed\\bin"
+        - "C:\\Users\\hp\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Genymobile.scrcpy_Microsoft.Winget.Source_8wekyb3d8bbwe\\scrcpy-win64-v3.3.3"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/SeaDrop"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/msys64/clang64"
+        - "C:/Program Files (x86)/SeaDrop"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "C:/Program Files (x86)/SeaDrop/bin"
+        - "C:/msys64/clang64/bin"
+        - "/bin"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/msys64/clang64/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "C:/msys64/clang64/share/cmake/Modules/CheckCXXSourceCompiles.cmake:103 (cmake_check_source_compiles)"
+      - "C:/msys64/clang64/share/cmake/Modules/FindThreads.cmake:99 (check_cxx_source_compiles)"
+      - "C:/msys64/clang64/share/cmake/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "CMakeLists.txt:79 (find_package)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "C:/Users/hp/Documents/SeagrEnv/build/CMakeFiles/CMakeScratch/TryCompile-5pddme"
+      binary: "C:/Users/hp/Documents/SeagrEnv/build/CMakeFiles/CMakeScratch/TryCompile-5pddme"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/msys64/clang64/bin/clang-scan-deps.exe"
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/hp/Documents/SeagrEnv/build/CMakeFiles/CMakeScratch/TryCompile-5pddme'
+        
+        Run Build Command(s): C:/msys64/clang64/bin/ninja.exe -v cmTC_bfd4a
+        [1/2] C:\\msys64\\clang64\\bin\\clang++.exe -DCMAKE_HAVE_LIBC_PTHREAD  -std=c++17 -MD -MT CMakeFiles/cmTC_bfd4a.dir/src.cxx.obj -MF CMakeFiles\\cmTC_bfd4a.dir\\src.cxx.obj.d -o CMakeFiles/cmTC_bfd4a.dir/src.cxx.obj -c C:/Users/hp/Documents/SeagrEnv/build/CMakeFiles/CMakeScratch/TryCompile-5pddme/src.cxx
+        [2/2] C:\\windows\\system32\\cmd.exe /C "cd . && C:\\msys64\\clang64\\bin\\clang++.exe   CMakeFiles/cmTC_bfd4a.dir/src.cxx.obj -o cmTC_bfd4a.exe -Wl,--out-implib,libcmTC_bfd4a.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        FAILED: [code=1] cmTC_bfd4a.exe 
+        C:\\windows\\system32\\cmd.exe /C "cd . && C:\\msys64\\clang64\\bin\\clang++.exe   CMakeFiles/cmTC_bfd4a.dir/src.cxx.obj -o cmTC_bfd4a.exe -Wl,--out-implib,libcmTC_bfd4a.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        ld.lld: error: undefined symbol: pthread_create
+        >>> referenced by CMakeFiles/cmTC_bfd4a.dir/src.cxx.obj:(main)
+        
+        ld.lld: error: undefined symbol: pthread_detach
+        >>> referenced by CMakeFiles/cmTC_bfd4a.dir/src.cxx.obj:(main)
+        
+        ld.lld: error: undefined symbol: pthread_cancel
+        >>> referenced by CMakeFiles/cmTC_bfd4a.dir/src.cxx.obj:(main)
+        
+        ld.lld: error: undefined symbol: pthread_join
+        >>> referenced by CMakeFiles/cmTC_bfd4a.dir/src.cxx.obj:(main)
+        
+        ld.lld: error: undefined symbol: pthread_exit
+        >>> referenced by CMakeFiles/cmTC_bfd4a.dir/src.cxx.obj:(main)
+        clang++: error: linker command failed with exit code 1 (use -v to see invocation)
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/msys64/clang64/share/cmake/Modules/CheckLibraryExists.cmake:154 (try_compile)"
+      - "C:/msys64/clang64/share/cmake/Modules/FindThreads.cmake:112 (check_library_exists)"
+      - "C:/msys64/clang64/share/cmake/Modules/FindThreads.cmake:175 (_threads_check_lib)"
+      - "CMakeLists.txt:79 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthreads"
+    directories:
+      source: "C:/Users/hp/Documents/SeagrEnv/build/CMakeFiles/CMakeScratch/TryCompile-sh5sfq"
+      binary: "C:/Users/hp/Documents/SeagrEnv/build/CMakeFiles/CMakeScratch/TryCompile-sh5sfq"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/msys64/clang64/bin/clang-scan-deps.exe"
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREADS_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/hp/Documents/SeagrEnv/build/CMakeFiles/CMakeScratch/TryCompile-sh5sfq'
+        
+        Run Build Command(s): C:/msys64/clang64/bin/ninja.exe -v cmTC_742d0
+        [1/2] C:\\msys64\\clang64\\bin\\clang++.exe   -DCHECK_FUNCTION_EXISTS=pthread_create -std=c++17 -MD -MT CMakeFiles/cmTC_742d0.dir/CheckFunctionExists.cxx.obj -MF CMakeFiles\\cmTC_742d0.dir\\CheckFunctionExists.cxx.obj.d -o CMakeFiles/cmTC_742d0.dir/CheckFunctionExists.cxx.obj -c C:/Users/hp/Documents/SeagrEnv/build/CMakeFiles/CMakeScratch/TryCompile-sh5sfq/CheckFunctionExists.cxx
+        [2/2] C:\\windows\\system32\\cmd.exe /C "cd . && C:\\msys64\\clang64\\bin\\clang++.exe -DCHECK_FUNCTION_EXISTS=pthread_create  CMakeFiles/cmTC_742d0.dir/CheckFunctionExists.cxx.obj -o cmTC_742d0.exe -Wl,--out-implib,libcmTC_742d0.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lpthreads  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        FAILED: [code=1] cmTC_742d0.exe 
+        C:\\windows\\system32\\cmd.exe /C "cd . && C:\\msys64\\clang64\\bin\\clang++.exe -DCHECK_FUNCTION_EXISTS=pthread_create  CMakeFiles/cmTC_742d0.dir/CheckFunctionExists.cxx.obj -o cmTC_742d0.exe -Wl,--out-implib,libcmTC_742d0.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lpthreads  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        lld: error: unable to find library -lpthreads
+        clang++: error: linker command failed with exit code 1 (use -v to see invocation)
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/msys64/clang64/share/cmake/Modules/CheckLibraryExists.cmake:154 (try_compile)"
+      - "C:/msys64/clang64/share/cmake/Modules/FindThreads.cmake:112 (check_library_exists)"
+      - "C:/msys64/clang64/share/cmake/Modules/FindThreads.cmake:176 (_threads_check_lib)"
+      - "CMakeLists.txt:79 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthread"
+    directories:
+      source: "C:/Users/hp/Documents/SeagrEnv/build/CMakeFiles/CMakeScratch/TryCompile-30qu11"
+      binary: "C:/Users/hp/Documents/SeagrEnv/build/CMakeFiles/CMakeScratch/TryCompile-30qu11"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/msys64/clang64/bin/clang-scan-deps.exe"
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREAD_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/hp/Documents/SeagrEnv/build/CMakeFiles/CMakeScratch/TryCompile-30qu11'
+        
+        Run Build Command(s): C:/msys64/clang64/bin/ninja.exe -v cmTC_1746d
+        [1/2] C:\\msys64\\clang64\\bin\\clang++.exe   -DCHECK_FUNCTION_EXISTS=pthread_create -std=c++17 -MD -MT CMakeFiles/cmTC_1746d.dir/CheckFunctionExists.cxx.obj -MF CMakeFiles\\cmTC_1746d.dir\\CheckFunctionExists.cxx.obj.d -o CMakeFiles/cmTC_1746d.dir/CheckFunctionExists.cxx.obj -c C:/Users/hp/Documents/SeagrEnv/build/CMakeFiles/CMakeScratch/TryCompile-30qu11/CheckFunctionExists.cxx
+        [2/2] C:\\windows\\system32\\cmd.exe /C "cd . && C:\\msys64\\clang64\\bin\\clang++.exe -DCHECK_FUNCTION_EXISTS=pthread_create  CMakeFiles/cmTC_1746d.dir/CheckFunctionExists.cxx.obj -o cmTC_1746d.exe -Wl,--out-implib,libcmTC_1746d.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lpthread  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+...

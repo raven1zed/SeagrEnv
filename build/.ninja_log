@@ -1,0 +1,23 @@
+# ninja log v7
+6	2649	7867750500469864	libseadrop/CMakeFiles/seadrop.dir/src/error.cpp.obj	81b13538c193c453
+47	2357	7867751405821648	libseadrop/CMakeFiles/seadrop.dir/src/connection.cpp.obj	57045f3e632deba2
+93	2417	7867751406293882	libseadrop/CMakeFiles/seadrop.dir/src/platform/windows/bluetooth_win.cpp.obj	fccb7fa4829c75eb
+34	2591	7867751405693720	libseadrop/CMakeFiles/seadrop.dir/src/types.cpp.obj	8cbcd654eaf7a7af
+56	2662	7867751405912734	libseadrop/CMakeFiles/seadrop.dir/src/clipboard.cpp.obj	126a2458f232076a
+80	2797	7867751406157276	libseadrop/CMakeFiles/seadrop.dir/src/database.cpp.obj	534ce38784af568c
+67	2878	7867751406028949	libseadrop/CMakeFiles/seadrop.dir/src/distance.cpp.obj	f964916a6a4a1891
+29	3143	7867751405648614	libseadrop/CMakeFiles/seadrop.dir/src/seadrop.cpp.obj	3afd6b3d19b72bab
+101	3160	7867751406367190	libseadrop/CMakeFiles/seadrop.dir/src/platform/windows/clipboard_win.cpp.obj	edd4f5a61b08994c
+86	3252	7867751406214846	libseadrop/CMakeFiles/seadrop.dir/src/platform/windows/wifi_direct_win.cpp.obj	863947e5465095de
+51	3629	7867751405871676	libseadrop/CMakeFiles/seadrop.dir/src/transfer.cpp.obj	11bcb886674a86ad
+74	3704	7867751406089624	libseadrop/CMakeFiles/seadrop.dir/src/config.cpp.obj	198b8b51ec22ea5a
+43	1214	7867751664335441	libseadrop/CMakeFiles/seadrop.dir/src/security.cpp.obj	9167ccf1f4fec0c7
+34	941	7867752059051232	libseadrop/CMakeFiles/seadrop.dir/src/discovery.cpp.obj	b2bedfd3961aa23d
+30	1071	7867752059018103	libseadrop/CMakeFiles/seadrop.dir/src/device.cpp.obj	b59cae61ac4de6c
+38	771	7867752434641317	libseadrop/CMakeFiles/seadrop.dir/src/connection.cpp.obj	57045f3e632deba2
+33	935	7867752434588252	libseadrop/CMakeFiles/seadrop.dir/src/discovery.cpp.obj	b2bedfd3961aa23d
+935	1071	7867752444709146	libseadrop/libseadrop.dll	3cd81d9356765098
+935	1071	7867752444709146	libseadrop/libseadrop.dll.a	3cd81d9356765098
+8	1499	7867756353730987	libseadrop/CMakeFiles/seadrop.dir/src/config.cpp.obj	198b8b51ec22ea5a
+1499	1681	7867756368642785	libseadrop/libseadrop.dll	3cd81d9356765098
+1499	1681	7867756368642785	libseadrop/libseadrop.dll.a	3cd81d9356765098

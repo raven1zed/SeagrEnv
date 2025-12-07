@@ -1,0 +1,31 @@
+{
+    "configurations": [
+        {
+            "name": "Win32-MSYS2-Clang64",
+            "includePath": [
+                "${workspaceFolder}/libseadrop/include",
+                "${workspaceFolder}/libseadrop/src",
+                "C:/msys64/clang64/include/c++/v1",
+                "C:/msys64/clang64/lib/clang/20/include",
+                "C:/msys64/clang64/include",
+                "C:/msys64/clang64/x86_64-w64-mingw32/include"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE",
+                "SEADROP_PLATFORM_WINDOWS=1",
+                "SEADROP_HAS_WIFI_DIRECT=1",
+                "SEADROP_HAS_BLUETOOTH=1",
+                "_WIN32",
+                "__MINGW32__",
+                "__MINGW64__"
+            ],
+            "compilerPath": "C:/msys64/clang64/bin/clang++.exe",
+            "cStandard": "c17",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "gcc-x64"
+        }
+    ],
+    "version": 4
+}

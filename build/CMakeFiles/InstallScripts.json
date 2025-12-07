@@ -1,0 +1,8 @@
+{
+	"InstallScripts" : 
+	[
+		"C:/Users/hp/Documents/SeagrEnv/build/cmake_install.cmake",
+		"C:/Users/hp/Documents/SeagrEnv/build/libseadrop/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

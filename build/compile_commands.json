@@ -1,0 +1,92 @@
+[
+{
+  "directory": "C:/Users/hp/Documents/SeagrEnv/build",
+  "command": "C:\\msys64\\clang64\\bin\\clang++.exe -DSEADROP_BUILDING_SHARED -Dseadrop_EXPORTS -IC:/Users/hp/Documents/SeagrEnv/libseadrop/include -IC:/Users/hp/Documents/SeagrEnv/libseadrop/src -g -std=c++17 -Wall -Wextra -Wpedantic -Wno-unused-parameter -Werror=return-type -o libseadrop\\CMakeFiles\\seadrop.dir\\src\\seadrop.cpp.obj -c C:\\Users\\hp\\Documents\\SeagrEnv\\libseadrop\\src\\seadrop.cpp",
+  "file": "C:/Users/hp/Documents/SeagrEnv/libseadrop/src/seadrop.cpp",
+  "output": "C:/Users/hp/Documents/SeagrEnv/build/libseadrop/CMakeFiles/seadrop.dir/src/seadrop.cpp.obj"
+},
+{
+  "directory": "C:/Users/hp/Documents/SeagrEnv/build",
+  "command": "C:\\msys64\\clang64\\bin\\clang++.exe -DSEADROP_BUILDING_SHARED -Dseadrop_EXPORTS -IC:/Users/hp/Documents/SeagrEnv/libseadrop/include -IC:/Users/hp/Documents/SeagrEnv/libseadrop/src -g -std=c++17 -Wall -Wextra -Wpedantic -Wno-unused-parameter -Werror=return-type -o libseadrop\\CMakeFiles\\seadrop.dir\\src\\error.cpp.obj -c C:\\Users\\hp\\Documents\\SeagrEnv\\libseadrop\\src\\error.cpp",
+  "file": "C:/Users/hp/Documents/SeagrEnv/libseadrop/src/error.cpp",
+  "output": "C:/Users/hp/Documents/SeagrEnv/build/libseadrop/CMakeFiles/seadrop.dir/src/error.cpp.obj"
+},
+{
+  "directory": "C:/Users/hp/Documents/SeagrEnv/build",
+  "command": "C:\\msys64\\clang64\\bin\\clang++.exe -DSEADROP_BUILDING_SHARED -Dseadrop_EXPORTS -IC:/Users/hp/Documents/SeagrEnv/libseadrop/include -IC:/Users/hp/Documents/SeagrEnv/libseadrop/src -g -std=c++17 -Wall -Wextra -Wpedantic -Wno-unused-parameter -Werror=return-type -o libseadrop\\CMakeFiles\\seadrop.dir\\src\\types.cpp.obj -c C:\\Users\\hp\\Documents\\SeagrEnv\\libseadrop\\src\\types.cpp",
+  "file": "C:/Users/hp/Documents/SeagrEnv/libseadrop/src/types.cpp",
+  "output": "C:/Users/hp/Documents/SeagrEnv/build/libseadrop/CMakeFiles/seadrop.dir/src/types.cpp.obj"
+},
+{
+  "directory": "C:/Users/hp/Documents/SeagrEnv/build",
+  "command": "C:\\msys64\\clang64\\bin\\clang++.exe -DSEADROP_BUILDING_SHARED -Dseadrop_EXPORTS -IC:/Users/hp/Documents/SeagrEnv/libseadrop/include -IC:/Users/hp/Documents/SeagrEnv/libseadrop/src -g -std=c++17 -Wall -Wextra -Wpedantic -Wno-unused-parameter -Werror=return-type -o libseadrop\\CMakeFiles\\seadrop.dir\\src\\device.cpp.obj -c C:\\Users\\hp\\Documents\\SeagrEnv\\libseadrop\\src\\device.cpp",
+  "file": "C:/Users/hp/Documents/SeagrEnv/libseadrop/src/device.cpp",
+  "output": "C:/Users/hp/Documents/SeagrEnv/build/libseadrop/CMakeFiles/seadrop.dir/src/device.cpp.obj"
+},
+{
+  "directory": "C:/Users/hp/Documents/SeagrEnv/build",
+  "command": "C:\\msys64\\clang64\\bin\\clang++.exe -DSEADROP_BUILDING_SHARED -Dseadrop_EXPORTS -IC:/Users/hp/Documents/SeagrEnv/libseadrop/include -IC:/Users/hp/Documents/SeagrEnv/libseadrop/src -g -std=c++17 -Wall -Wextra -Wpedantic -Wno-unused-parameter -Werror=return-type -o libseadrop\\CMakeFiles\\seadrop.dir\\src\\discovery.cpp.obj -c C:\\Users\\hp\\Documents\\SeagrEnv\\libseadrop\\src\\discovery.cpp",
+  "file": "C:/Users/hp/Documents/SeagrEnv/libseadrop/src/discovery.cpp",
+  "output": "C:/Users/hp/Documents/SeagrEnv/build/libseadrop/CMakeFiles/seadrop.dir/src/discovery.cpp.obj"
+},
+{
+  "directory": "C:/Users/hp/Documents/SeagrEnv/build",
+  "command": "C:\\msys64\\clang64\\bin\\clang++.exe -DSEADROP_BUILDING_SHARED -Dseadrop_EXPORTS -IC:/Users/hp/Documents/SeagrEnv/libseadrop/include -IC:/Users/hp/Documents/SeagrEnv/libseadrop/src -g -std=c++17 -Wall -Wextra -Wpedantic -Wno-unused-parameter -Werror=return-type -o libseadrop\\CMakeFiles\\seadrop.dir\\src\\connection.cpp.obj -c C:\\Users\\hp\\Documents\\SeagrEnv\\libseadrop\\src\\connection.cpp",
+  "file": "C:/Users/hp/Documents/SeagrEnv/libseadrop/src/connection.cpp",
+  "output": "C:/Users/hp/Documents/SeagrEnv/build/libseadrop/CMakeFiles/seadrop.dir/src/connection.cpp.obj"
+},
+{
+  "directory": "C:/Users/hp/Documents/SeagrEnv/build",
+  "command": "C:\\msys64\\clang64\\bin\\clang++.exe -DSEADROP_BUILDING_SHARED -Dseadrop_EXPORTS -IC:/Users/hp/Documents/SeagrEnv/libseadrop/include -IC:/Users/hp/Documents/SeagrEnv/libseadrop/src -g -std=c++17 -Wall -Wextra -Wpedantic -Wno-unused-parameter -Werror=return-type -o libseadrop\\CMakeFiles\\seadrop.dir\\src\\transfer.cpp.obj -c C:\\Users\\hp\\Documents\\SeagrEnv\\libseadrop\\src\\transfer.cpp",
+  "file": "C:/Users/hp/Documents/SeagrEnv/libseadrop/src/transfer.cpp",
+  "output": "C:/Users/hp/Documents/SeagrEnv/build/libseadrop/CMakeFiles/seadrop.dir/src/transfer.cpp.obj"
+},
+{
+  "directory": "C:/Users/hp/Documents/SeagrEnv/build",
+  "command": "C:\\msys64\\clang64\\bin\\clang++.exe -DSEADROP_BUILDING_SHARED -Dseadrop_EXPORTS -IC:/Users/hp/Documents/SeagrEnv/libseadrop/include -IC:/Users/hp/Documents/SeagrEnv/libseadrop/src -g -std=c++17 -Wall -Wextra -Wpedantic -Wno-unused-parameter -Werror=return-type -o libseadrop\\CMakeFiles\\seadrop.dir\\src\\clipboard.cpp.obj -c C:\\Users\\hp\\Documents\\SeagrEnv\\libseadrop\\src\\clipboard.cpp",
+  "file": "C:/Users/hp/Documents/SeagrEnv/libseadrop/src/clipboard.cpp",
+  "output": "C:/Users/hp/Documents/SeagrEnv/build/libseadrop/CMakeFiles/seadrop.dir/src/clipboard.cpp.obj"
+},
+{
+  "directory": "C:/Users/hp/Documents/SeagrEnv/build",
+  "command": "C:\\msys64\\clang64\\bin\\clang++.exe -DSEADROP_BUILDING_SHARED -Dseadrop_EXPORTS -IC:/Users/hp/Documents/SeagrEnv/libseadrop/include -IC:/Users/hp/Documents/SeagrEnv/libseadrop/src -g -std=c++17 -Wall -Wextra -Wpedantic -Wno-unused-parameter -Werror=return-type -o libseadrop\\CMakeFiles\\seadrop.dir\\src\\security.cpp.obj -c C:\\Users\\hp\\Documents\\SeagrEnv\\libseadrop\\src\\security.cpp",
+  "file": "C:/Users/hp/Documents/SeagrEnv/libseadrop/src/security.cpp",
+  "output": "C:/Users/hp/Documents/SeagrEnv/build/libseadrop/CMakeFiles/seadrop.dir/src/security.cpp.obj"
+},
+{
+  "directory": "C:/Users/hp/Documents/SeagrEnv/build",
+  "command": "C:\\msys64\\clang64\\bin\\clang++.exe -DSEADROP_BUILDING_SHARED -Dseadrop_EXPORTS -IC:/Users/hp/Documents/SeagrEnv/libseadrop/include -IC:/Users/hp/Documents/SeagrEnv/libseadrop/src -g -std=c++17 -Wall -Wextra -Wpedantic -Wno-unused-parameter -Werror=return-type -o libseadrop\\CMakeFiles\\seadrop.dir\\src\\distance.cpp.obj -c C:\\Users\\hp\\Documents\\SeagrEnv\\libseadrop\\src\\distance.cpp",
+  "file": "C:/Users/hp/Documents/SeagrEnv/libseadrop/src/distance.cpp",
+  "output": "C:/Users/hp/Documents/SeagrEnv/build/libseadrop/CMakeFiles/seadrop.dir/src/distance.cpp.obj"
+},
+{
+  "directory": "C:/Users/hp/Documents/SeagrEnv/build",
+  "command": "C:\\msys64\\clang64\\bin\\clang++.exe -DSEADROP_BUILDING_SHARED -Dseadrop_EXPORTS -IC:/Users/hp/Documents/SeagrEnv/libseadrop/include -IC:/Users/hp/Documents/SeagrEnv/libseadrop/src -g -std=c++17 -Wall -Wextra -Wpedantic -Wno-unused-parameter -Werror=return-type -o libseadrop\\CMakeFiles\\seadrop.dir\\src\\config.cpp.obj -c C:\\Users\\hp\\Documents\\SeagrEnv\\libseadrop\\src\\config.cpp",
+  "file": "C:/Users/hp/Documents/SeagrEnv/libseadrop/src/config.cpp",
+  "output": "C:/Users/hp/Documents/SeagrEnv/build/libseadrop/CMakeFiles/seadrop.dir/src/config.cpp.obj"
+},
+{
+  "directory": "C:/Users/hp/Documents/SeagrEnv/build",
+  "command": "C:\\msys64\\clang64\\bin\\clang++.exe -DSEADROP_BUILDING_SHARED -Dseadrop_EXPORTS -IC:/Users/hp/Documents/SeagrEnv/libseadrop/include -IC:/Users/hp/Documents/SeagrEnv/libseadrop/src -g -std=c++17 -Wall -Wextra -Wpedantic -Wno-unused-parameter -Werror=return-type -o libseadrop\\CMakeFiles\\seadrop.dir\\src\\database.cpp.obj -c C:\\Users\\hp\\Documents\\SeagrEnv\\libseadrop\\src\\database.cpp",
+  "file": "C:/Users/hp/Documents/SeagrEnv/libseadrop/src/database.cpp",
+  "output": "C:/Users/hp/Documents/SeagrEnv/build/libseadrop/CMakeFiles/seadrop.dir/src/database.cpp.obj"
+},
+{
+  "directory": "C:/Users/hp/Documents/SeagrEnv/build",
+  "command": "C:\\msys64\\clang64\\bin\\clang++.exe -DSEADROP_BUILDING_SHARED -Dseadrop_EXPORTS -IC:/Users/hp/Documents/SeagrEnv/libseadrop/include -IC:/Users/hp/Documents/SeagrEnv/libseadrop/src -g -std=c++17 -Wall -Wextra -Wpedantic -Wno-unused-parameter -Werror=return-type -o libseadrop\\CMakeFiles\\seadrop.dir\\src\\platform\\windows\\wifi_direct_win.cpp.obj -c C:\\Users\\hp\\Documents\\SeagrEnv\\libseadrop\\src\\platform\\windows\\wifi_direct_win.cpp",
+  "file": "C:/Users/hp/Documents/SeagrEnv/libseadrop/src/platform/windows/wifi_direct_win.cpp",
+  "output": "C:/Users/hp/Documents/SeagrEnv/build/libseadrop/CMakeFiles/seadrop.dir/src/platform/windows/wifi_direct_win.cpp.obj"
+},
+{
+  "directory": "C:/Users/hp/Documents/SeagrEnv/build",
+  "command": "C:\\msys64\\clang64\\bin\\clang++.exe -DSEADROP_BUILDING_SHARED -Dseadrop_EXPORTS -IC:/Users/hp/Documents/SeagrEnv/libseadrop/include -IC:/Users/hp/Documents/SeagrEnv/libseadrop/src -g -std=c++17 -Wall -Wextra -Wpedantic -Wno-unused-parameter -Werror=return-type -o libseadrop\\CMakeFiles\\seadrop.dir\\src\\platform\\windows\\bluetooth_win.cpp.obj -c C:\\Users\\hp\\Documents\\SeagrEnv\\libseadrop\\src\\platform\\windows\\bluetooth_win.cpp",
+  "file": "C:/Users/hp/Documents/SeagrEnv/libseadrop/src/platform/windows/bluetooth_win.cpp",
+  "output": "C:/Users/hp/Documents/SeagrEnv/build/libseadrop/CMakeFiles/seadrop.dir/src/platform/windows/bluetooth_win.cpp.obj"
+},
+{
+  "directory": "C:/Users/hp/Documents/SeagrEnv/build",
+  "command": "C:\\msys64\\clang64\\bin\\clang++.exe -DSEADROP_BUILDING_SHARED -Dseadrop_EXPORTS -IC:/Users/hp/Documents/SeagrEnv/libseadrop/include -IC:/Users/hp/Documents/SeagrEnv/libseadrop/src -g -std=c++17 -Wall -Wextra -Wpedantic -Wno-unused-parameter -Werror=return-type -o libseadrop\\CMakeFiles\\seadrop.dir\\src\\platform\\windows\\clipboard_win.cpp.obj -c C:\\Users\\hp\\Documents\\SeagrEnv\\libseadrop\\src\\platform\\windows\\clipboard_win.cpp",
+  "file": "C:/Users/hp/Documents/SeagrEnv/libseadrop/src/platform/windows/clipboard_win.cpp",
+  "output": "C:/Users/hp/Documents/SeagrEnv/build/libseadrop/CMakeFiles/seadrop.dir/src/platform/windows/clipboard_win.cpp.obj"
+}
+]

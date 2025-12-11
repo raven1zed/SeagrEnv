@@ -26,7 +26,6 @@
 #include <memory>
 #include <vector>
 
-
 namespace seadrop {
 
 // ============================================================================
@@ -356,8 +355,10 @@ public:
    */
   void on_error(std::function<void(const Error &)> callback);
 
-private:
+  // Allow platform implementations to see the opaque type
   class Impl;
+
+private:
   std::unique_ptr<Impl> impl_;
 };
 

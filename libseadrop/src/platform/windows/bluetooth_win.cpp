@@ -1,5 +1,19 @@
 /**
  * @file bluetooth_win.cpp
+ * @brief Windows Bluetooth implementation (Simulation/Mock for now)
+ */
+
+#include "seadrop/discovery.h"
+#include "seadrop/platform.h"
+#include "../discovery_pimpl.h"
+
+#ifdef SEADROP_PLATFORM_WINDOWS
+
+#include <thread>
+#include <mutex>
+
+namespace seadrop {
+
 // ============================================================================
 // Platform Helper Implementations
 // ============================================================================

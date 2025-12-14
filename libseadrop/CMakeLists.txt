@@ -16,6 +16,8 @@ set(SEADROP_SOURCES
     src/distance.cpp
     src/config.cpp
     src/database.cpp
+    src/protocol.cpp
+    src/state_machine.cpp
 )
 
 # Header files (for IDE visibility)
@@ -33,6 +35,8 @@ set(SEADROP_HEADERS
     include/seadrop/distance.h
     include/seadrop/config.h
     include/seadrop/database.h
+    include/seadrop/protocol.h
+    include/seadrop/state_machine.h
 )
 
 # Platform-specific sources

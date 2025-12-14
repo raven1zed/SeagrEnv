@@ -81,6 +81,28 @@ add_test(NAME DeviceTests COMMAND test_device)
 # Integration Tests
 # ============================================================================
 
+# Protocol tests
+add_executable(test_protocol
+    unit/test_protocol.cpp
+)
+target_link_libraries(test_protocol PRIVATE
+    seadrop
+    GTest::gtest_main
+    test_utils
+)
+add_test(NAME ProtocolTests COMMAND test_protocol)
+
+# State Machine tests
+add_executable(test_state_machine
+    unit/test_state_machine.cpp
+)
+target_link_libraries(test_state_machine PRIVATE
+    seadrop
+    GTest::gtest_main
+    test_utils
+)
+add_test(NAME StateMachineTests COMMAND test_state_machine)
+
 add_executable(test_integration
     integration/test_full_transfer.cpp
 )
@@ -90,3 +112,4 @@ target_link_libraries(test_integration PRIVATE
     test_utils
 )
 add_test(NAME IntegrationTests COMMAND test_integration)
+

@@ -211,11 +211,11 @@ seadrop/
 - [x] Encryption module (libsodium)
 - [x] Error handling
 
-### Phase 2: Core Protocol 🚧
+### Phase 2: Core Protocol ✅
 - [x] File transfer protocol design
 - [x] Distance monitoring
-- [ ] Transfer state machine
-- [ ] Protocol wire format
+- [x] Transfer state machine
+- [x] Protocol wire format
 
 ### Phase 3: Linux Implementation 📋
 - [ ] BlueZ BLE integration

@@ -57,6 +57,18 @@ if(CMAKE_CXX_COMPILER_ID MATCHES "GNU|Clang")
 endif()
 
 # ============================================================================
+# Platform Check
+# ============================================================================
+
+if(NOT UNIX AND NOT ANDROID)
+    message(FATAL_ERROR "SeaDrop only supports Linux and Android platforms.")
+endif()
+
+if(APPLE)
+    message(FATAL_ERROR "SeaDrop only supports Linux and Android platforms.")
+endif()
+
+# ============================================================================
 # Dependencies
 # ============================================================================
 
@@ -70,10 +82,8 @@ pkg_check_modules(SODIUM REQUIRED libsodium)
 pkg_check_modules(SQLITE REQUIRED sqlite3)
 
 # BlueZ for Bluetooth (Linux only)
-if(UNIX AND NOT APPLE)
-    pkg_check_modules(BLUEZ bluez)
-    pkg_check_modules(DBUS dbus-1)
-endif()
+pkg_check_modules(BLUEZ bluez)
+pkg_check_modules(DBUS dbus-1)
 
 # Threading
 find_package(Threads REQUIRED)

@@ -42,35 +42,23 @@ const char *seadrop_state_name(SeaDropState state) {
 // ============================================================================
 
 const char *get_platform_name() {
-#if defined(SEADROP_PLATFORM_LINUX)
-  return "Linux";
-#elif defined(SEADROP_PLATFORM_ANDROID)
+#if defined(SEADROP_PLATFORM_ANDROID)
   return "Android";
-#elif defined(SEADROP_PLATFORM_WINDOWS)
-  return "Windows";
-#elif defined(SEADROP_PLATFORM_MACOS)
-  return "macOS";
-#elif defined(SEADROP_PLATFORM_IOS)
-  return "iOS";
 #else
-  return "Unknown";
+  return "Linux";
 #endif
 }
 
 bool is_wifi_direct_supported() {
 #if defined(SEADROP_PLATFORM_LINUX) || defined(SEADROP_PLATFORM_ANDROID)
   return true;
-#elif defined(SEADROP_PLATFORM_WINDOWS)
-  // Windows support is limited
-  return false;
 #else
   return false;
 #endif
 }
 
 bool is_bluetooth_supported() {
-#if defined(SEADROP_PLATFORM_LINUX) || defined(SEADROP_PLATFORM_ANDROID) ||    \
-    defined(SEADROP_PLATFORM_WINDOWS) || defined(SEADROP_PLATFORM_APPLE)
+#if defined(SEADROP_PLATFORM_LINUX) || defined(SEADROP_PLATFORM_ANDROID)
   return true;
 #else
   return false;
@@ -184,15 +172,12 @@ Result<void> SeaDrop::init(const SeaDropConfig &config) {
                                  ? get_default_device_name()
                                  : config.device_name;
 
-#if defined(SEADROP_PLATFORM_LINUX)
-  impl_->local_device.platform = DevicePlatform::Linux;
-  impl_->local_device.type = DeviceType::Desktop; // TODO: Detect properly
-#elif defined(SEADROP_PLATFORM_ANDROID)
+#if defined(SEADROP_PLATFORM_ANDROID)
   impl_->local_device.platform = DevicePlatform::Android;
   impl_->local_device.type = DeviceType::Phone;
-#elif defined(SEADROP_PLATFORM_WINDOWS)
-  impl_->local_device.platform = DevicePlatform::Windows;
-  impl_->local_device.type = DeviceType::Desktop;
+#else
+  impl_->local_device.platform = DevicePlatform::Linux;
+  impl_->local_device.type = DeviceType::Desktop; // TODO: Detect properly
 #endif
 
   impl_->local_device.seadrop_version = VERSION_STRING;

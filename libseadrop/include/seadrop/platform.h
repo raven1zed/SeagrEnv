@@ -13,20 +13,7 @@
 // Platform Detection
 // ============================================================================
 
-#if defined(_WIN32) || defined(_WIN64)
-#define SEADROP_PLATFORM_WINDOWS 1
-#define SEADROP_PLATFORM_NAME "Windows"
-#elif defined(__APPLE__) && defined(__MACH__)
-#include <TargetConditionals.h>
-#if TARGET_OS_IPHONE
-#define SEADROP_PLATFORM_IOS 1
-#define SEADROP_PLATFORM_NAME "iOS"
-#else
-#define SEADROP_PLATFORM_MACOS 1
-#define SEADROP_PLATFORM_NAME "macOS"
-#endif
-#define SEADROP_PLATFORM_APPLE 1
-#elif defined(__ANDROID__)
+#if defined(__ANDROID__)
 #define SEADROP_PLATFORM_ANDROID 1
 #define SEADROP_PLATFORM_LINUX 1
 #define SEADROP_PLATFORM_NAME "Android"
@@ -34,7 +21,7 @@
 #define SEADROP_PLATFORM_LINUX 1
 #define SEADROP_PLATFORM_NAME "Linux"
 #else
-#error "Unsupported platform"
+#error "Unsupported platform. SeaDrop only supports Linux and Android."
 #endif
 
 // ============================================================================

@@ -11,14 +11,7 @@
 #include <string>
 
 // Platform includes
-#ifdef _WIN32
-#ifndef WIN32_LEAN_AND_MEAN
-#define WIN32_LEAN_AND_MEAN
-#endif
-#include <shlobj.h>
-#include <windows.h>
-
-#else
+#if !defined(_WIN32)
 #include <pwd.h>
 #include <unistd.h>
 #endif
@@ -74,15 +67,10 @@ void SeaDropConfig::load_defaults() {
   close_to_tray = true;
 
   auto config_dir = get_default_config_dir();
-#ifdef _WIN32
-  config_file_path = config_dir / L"config.json";
-  database_path = config_dir / L"seadrop.db";
-  log_path = config_dir / L"logs";
-#else
+  auto config_dir = get_default_config_dir();
   config_file_path = config_dir / "config.json";
   database_path = config_dir / "seadrop.db";
   log_path = config_dir / "logs";
-#endif
 }
 
 Result<void> SeaDropConfig::validate() const {
@@ -104,15 +92,6 @@ Result<void> SeaDropConfig::validate() const {
 }
 
 fs::path SeaDropConfig::get_default_download_path() {
-#ifdef _WIN32
-  wchar_t pathBuf[MAX_PATH];
-  if (SUCCEEDED(SHGetFolderPathW(NULL, CSIDL_PERSONAL, NULL, 0, pathBuf))) {
-    fs::path result(pathBuf);
-    result = result / L"Downloads" / L"SeaDrop";
-    return result;
-  }
-  return fs::path(L"C:\\Users\\Downloads\\SeaDrop");
-#else
   const char *home = std::getenv("HOME");
   if (!home) {
     struct passwd *pw = getpwuid(getuid());
@@ -126,27 +105,9 @@ fs::path SeaDropConfig::get_default_download_path() {
     return result;
   }
   return fs::path("/tmp/SeaDrop");
-#endif
 }
 
 fs::path SeaDropConfig::get_default_config_dir() {
-#ifdef _WIN32
-  wchar_t pathBuf[MAX_PATH];
-  if (SUCCEEDED(SHGetFolderPathW(NULL, CSIDL_APPDATA, NULL, 0, pathBuf))) {
-    fs::path result(pathBuf);
-    result = result / L"SeaDrop";
-    return result;
-  }
-  return fs::path(L"C:\\ProgramData\\SeaDrop");
-#elif defined(__APPLE__)
-  const char *home = std::getenv("HOME");
-  if (home) {
-    fs::path result(home);
-    result = result / "Library" / "Application Support" / "SeaDrop";
-    return result;
-  }
-  return fs::path("/tmp/SeaDrop");
-#else
   // Linux: Use XDG_CONFIG_HOME or ~/.config
   const char *xdg_config = std::getenv("XDG_CONFIG_HOME");
   if (xdg_config) {
@@ -163,7 +124,6 @@ fs::path SeaDropConfig::get_default_config_dir() {
   }
 
   return fs::path("/tmp/seadrop");
-#endif
 }
 
 // ============================================================================
@@ -189,11 +149,7 @@ Result<void> ConfigManager::init(const fs::path &config_path) {
 
   if (config_path.empty()) {
     impl_->config_path = SeaDropConfig::get_default_config_dir();
-#ifdef _WIN32
-    impl_->config_path = impl_->config_path / L"config.json";
-#else
     impl_->config_path = impl_->config_path / "config.json";
-#endif
   } else {
     impl_->config_path = config_path;
   }

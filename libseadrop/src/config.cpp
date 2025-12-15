@@ -67,7 +67,6 @@ void SeaDropConfig::load_defaults() {
   close_to_tray = true;
 
   auto config_dir = get_default_config_dir();
-  auto config_dir = get_default_config_dir();
   config_file_path = config_dir / "config.json";
   database_path = config_dir / "seadrop.db";
   log_path = config_dir / "logs";
@@ -119,7 +118,7 @@ fs::path SeaDropConfig::get_default_config_dir() {
   const char *home = std::getenv("HOME");
   if (home) {
     fs::path result(home);
-    result = result / make_path(".config") / make_path("seadrop");
+    result = result / ".config" / "seadrop";
     return result;
   }
 

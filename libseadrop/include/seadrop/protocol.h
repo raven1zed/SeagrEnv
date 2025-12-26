@@ -15,6 +15,9 @@
 #include <cstdint>
 #include <string>
 #include <vector>
+/// Default chunk size for file transfers (64 KB)
+constexpr size_t DEFAULT_CHUNK_SIZE = 64 * 1024;
+
 
 
 namespace seadrop {

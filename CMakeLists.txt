@@ -57,14 +57,10 @@ if(CMAKE_CXX_COMPILER_ID MATCHES "GNU|Clang")
 endif()
 
 # ============================================================================
-# Platform Check
+# Platform Check (Linux and Android only)
 # ============================================================================
 
-if(NOT UNIX AND NOT ANDROID)
-    message(FATAL_ERROR "SeaDrop only supports Linux and Android platforms.")
-endif()
-
-if(APPLE)
+if(NOT UNIX OR APPLE)
     message(FATAL_ERROR "SeaDrop only supports Linux and Android platforms.")
 endif()
 

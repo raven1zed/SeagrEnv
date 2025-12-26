@@ -10,11 +10,9 @@
 #include <mutex>
 #include <string>
 
-// Platform includes
-#if !defined(_WIN32)
+// POSIX includes (Linux/Android)
 #include <pwd.h>
 #include <unistd.h>
-#endif
 
 // Project includes LAST
 #include "seadrop/config.h"

@@ -1,6 +1,7 @@
 # ============================================================================
 # libseadrop - Core Library
 # ============================================================================
+# SeaDrop only supports Linux and Android platforms.
 
 # Core source files
 set(SEADROP_SOURCES
@@ -39,25 +40,23 @@ set(SEADROP_HEADERS
     include/seadrop/state_machine.h
 )
 
-# Platform-specific sources
-if(WIN32)
+# Platform-specific sources (Linux/Android)
+if(UNIX)
     list(APPEND SEADROP_SOURCES
-        src/platform/windows/wifi_direct_win.cpp
-        src/platform/windows/bluetooth_win.cpp
-        src/platform/windows/clipboard_win.cpp
-    )
-elseif(APPLE)
-    list(APPEND SEADROP_SOURCES
-        src/platform/macos/wifi_direct_macos.mm
-        src/platform/macos/bluetooth_macos.mm
-        src/platform/macos/clipboard_macos.mm
-    )
-elseif(UNIX)
-    list(APPEND SEADROP_SOURCES
-        src/platform/linux/wifi_direct_linux.cpp
-        src/platform/linux/bluetooth_linux.cpp
+        src/platform/linux/bluez_ble.cpp
         src/platform/linux/wpa_supplicant.cpp
+        src/platform/linux/wifi_direct_linux.cpp
         src/platform/linux/clipboard_linux.cpp
+        src/platform/linux/clipboard_platform_linux.cpp
+    )
+    
+    list(APPEND SEADROP_HEADERS
+        src/platform/linux/dbus_helpers.h
+        src/platform/linux/bluez_ble.h
+        src/platform/linux/wpa_supplicant.h
+        src/platform/linux/clipboard_linux.h
+        src/connection_pimpl.h
+        src/clipboard_pimpl.h
     )
 endif()
 
@@ -98,29 +97,25 @@ target_include_directories(seadrop PRIVATE
     ${SQLITE_INCLUDE_DIRS}
 )
 
-# Platform-specific dependencies
-if(UNIX AND NOT APPLE)
-    if(BLUEZ_FOUND)
-        target_link_libraries(seadrop PRIVATE ${BLUEZ_LIBRARIES})
-        target_include_directories(seadrop PRIVATE ${BLUEZ_INCLUDE_DIRS})
-        target_compile_definitions(seadrop PRIVATE HAS_BLUEZ)
-    endif()
-    
+# Linux/Android-specific dependencies
+if(UNIX)
+    # D-Bus is required for BlueZ and wpa_supplicant
     if(DBUS_FOUND)
         target_link_libraries(seadrop PRIVATE ${DBUS_LIBRARIES})
         target_include_directories(seadrop PRIVATE ${DBUS_INCLUDE_DIRS})
         target_compile_definitions(seadrop PRIVATE HAS_DBUS)
+    else()
+        message(WARNING "D-Bus not found. BLE discovery and WiFi Direct will not work.")
     endif()
-elseif(WIN32)
-    # Windows-specific libraries
-    target_link_libraries(seadrop PRIVATE
-        ws2_32
-        bcrypt
-        windowsapp
-    )
     
-    # Enable C++/WinRT
-    target_compile_options(seadrop PRIVATE /std:c++17 /await)
+    # BlueZ is required for BLE
+    if(BLUEZ_FOUND)
+        target_link_libraries(seadrop PRIVATE ${BLUEZ_LIBRARIES})
+        target_include_directories(seadrop PRIVATE ${BLUEZ_INCLUDE_DIRS})
+        target_compile_definitions(seadrop PRIVATE HAS_BLUEZ)
+    else()
+        message(WARNING "BlueZ not found. BLE discovery will not work.")
+    endif()
 endif()
 
 # Set library properties

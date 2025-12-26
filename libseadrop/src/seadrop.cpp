@@ -4,6 +4,7 @@
  */
 
 #include "seadrop/seadrop.h"
+#include <cstring>
 #include <mutex>
 
 namespace seadrop {

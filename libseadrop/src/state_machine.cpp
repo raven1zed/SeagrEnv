@@ -3,6 +3,7 @@
  * @brief Transfer state machine implementation
  */
 
+#include "seadrop/transfer.h"
 #include "seadrop/state_machine.h"
 
 namespace seadrop {

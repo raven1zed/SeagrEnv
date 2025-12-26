@@ -5,6 +5,7 @@
 
 #include "seadrop/security.h"
 #include <cstring>
+#include <atomic>
 #include <fstream>
 #include <sodium.h>
 

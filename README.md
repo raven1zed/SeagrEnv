@@ -8,6 +8,20 @@
 
 SeaDrop is a cross-platform peer-to-peer file sharing application that brings AirDrop-like simplicity to Linux and Android. It uses **WiFi Direct** for high-speed transfers and **BLE** for discovery, with a unique **distance-based trust system** for security.
 
+SeaDrop, with an UI/UX like Apple's AirDrop.
+Open-source.
+Completely offline.
+Developed by me and claude.
+
+Did i wrote all of this?
+no, i can't even code either.
+
+and it should've been an answer to all of your questions.
+
+To, Anthropic
+I'm grateful for and using your AI Models,
+Claude Sonnet and Opus.
+
 ## ✨ Key Features
 
 ### 🤝 Trust-Based Auto-Accept

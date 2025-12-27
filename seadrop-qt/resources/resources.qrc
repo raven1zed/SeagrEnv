@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/">
+        <file>icons/seadrop.png</file>
+        <file>icons/phone.png</file>
+        <file>icons/tablet.png</file>
+        <file>icons/laptop.png</file>
+        <file>icons/desktop.png</file>
+    </qresource>
+</RCC>

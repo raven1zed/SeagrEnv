@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=SeaDrop
+Comment=Open-source file sharing for Linux
+Exec=seadrop-qt
+Icon=seadrop
+Terminal=false
+Type=Application
+Categories=Network;FileTransfer;
+Keywords=airdrop;share;transfer;wifi;bluetooth;

@@ -15,6 +15,9 @@ sudo apt install -y libsodium-dev libsqlite3-dev
 # Platform dependencies (BLE & WiFi Direct)
 sudo apt install -y libdbus-1-dev libbluetooth-dev
 
+# Qt6 (for GUI)
+sudo apt install -y qt6-base-dev qt6-tools-dev
+
 # Clipboard tools
 sudo apt install -y xclip xsel wl-clipboard
 
